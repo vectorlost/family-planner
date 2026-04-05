@@ -1,0 +1,286 @@
+{
+  "semaine": "2026-03-26",
+  "semaine_label": "26 mars 2026",
+  "semaine_id": "2026-W13",
+  "n_repas": 5,
+  "n_portions": 4,
+  "cout_estime": "55–65 $",
+  "contraintes": ["Sans gluten", "Sans lactose", "Sans sucre raffiné"],
+  "notes_caroline": "Tous les 5 menus respectent sans gluten, sans lactose et sans sucre raffiné. Points d'attention : sauce tamari (menu Lundi) — utiliser tamari sans gluten. Sauce hoisin (menu Lundi) — vérifier sans gluten. Lait de coco (menus Mercredi et Vendredi) naturellement sans lactose.",
+  "raisonnement": "Cette semaine, les hauts de cuisse de poulet à Maxi (1,95 $/lb) et le saumon atlantique (-31%) étaient les meilleures protéines soldées. Le bœuf haché à Métro (-22%) permet un bon sauté aux olives. La variété couvre asiatique (poulet), méditerranéen (saumon/bœuf), indien (pois chiches, crevettes) pour équilibrer la semaine sur 5 soupers. Exécution automatique : 5 soupers, 4 portions.",
+
+  "menus": [
+    {
+      "jour": "Lundi",
+      "emoji": "🍗",
+      "titre": "Sauté asiatique de poulet, brocoli, basilic et arachides",
+      "url": "https://www.kpourkatrine.com/fr/recettes/viandes-volailles/saute-asiatique-de-poulet-brocoli-basilic-et-arachides/",
+      "site": "K pour Katrine",
+      "proteine": "Volaille",
+      "saveur": "Asiatique",
+      "temps": 40,
+      "portions": 4,
+      "statut": "Confirmé",
+      "ingredients": [
+        {"nom": "Hauts de cuisse de poulet désossés, en lamelles", "quantite": "700 g", "magasin": "MAXI", "prix": "1,95 $/lb — solde Maxi", "en_special": true},
+        {"nom": "Couronne de brocoli, en petits bouquets", "quantite": "1 couronne", "magasin": "MAXI", "prix": "1,50 $ — solde Maxi", "en_special": true},
+        {"nom": "Sauce tamari sans gluten", "quantite": "3 c. à soupe", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Sauce hoisin sans gluten", "quantite": "2 c. à soupe", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Huile de sésame grillée", "quantite": "1 c. à soupe", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Ail", "quantite": "2 gousses, hachées", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Gingembre frais râpé", "quantite": "1 c. à soupe", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Arachides non salées", "quantite": "50 g", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Basilic frais", "quantite": "1 bouquet", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Sirop d'érable", "quantite": "1 c. à soupe", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Sriracha", "quantite": "au goût", "magasin": "MAXI", "prix": "en stock", "en_special": false}
+      ],
+      "preparation": [
+        "Mélanger tamari, hoisin, sirop d'érable, sriracha et huile de sésame dans un bol. Réserver.",
+        "Chauffer l'huile dans un wok ou grande poêle à feu vif. Sauter l'ail et le gingembre 30 sec.",
+        "Ajouter le poulet en lamelles ; cuire 5–6 min jusqu'à dorure.",
+        "Ajouter le brocoli et continuer à sauter 3–4 min jusqu'à al dente.",
+        "Verser la sauce, bien mélanger et cuire 1–2 min. Garnir d'arachides et de basilic frais. Servir avec du riz."
+      ],
+      "astuce_meal_prep": "Couper le poulet et le brocoli la veille. Préparer la sauce à l'avance et réfrigérer.",
+      "notes_caroline": "Tamari sans gluten : la plupart des tamari sont sans gluten mais vérifier l'étiquette. Sauce hoisin : certaines marques contiennent du blé — choisir une marque certifiée sans gluten."
+    },
+    {
+      "jour": "Mardi",
+      "emoji": "🐟",
+      "titre": "Saumon grillé tomates, aneth et oignons verts",
+      "url": "https://www.kpourkatrine.com/fr/recettes/saumon-grille-tomates-aneth-et-oignons-verts/",
+      "site": "K pour Katrine",
+      "proteine": "Poisson",
+      "saveur": "Méditerranéen",
+      "temps": 30,
+      "portions": 4,
+      "statut": "Confirmé",
+      "ingredients": [
+        {"nom": "Filet de saumon atlantique", "quantite": "600 g (4 portions)", "magasin": "MAXI", "prix": "8,99 $/lb — solde Maxi", "en_special": true},
+        {"nom": "Tomates cerises", "quantite": "300 g", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Oignons verts", "quantite": "1 botte", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Aneth frais", "quantite": "1 bouquet", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Huile d'olive", "quantite": "2 c. à soupe", "magasin": "MAXI", "prix": "en stock", "en_special": false},
+        {"nom": "Citron (jus)", "quantite": "1 citron", "magasin": "MAXI", "prix": "prix courant", "en_special": false}
+      ],
+      "preparation": [
+        "Préchauffer le four à 400°F ou préparer le gril.",
+        "Disposer les filets de saumon sur une plaque huilée. Parsemer de tomates cerises coupées en deux et d'oignons verts.",
+        "Arroser d'huile d'olive et de jus de citron. Assaisonner.",
+        "Cuire 12–15 min au four jusqu'à ce que le saumon se défasse facilement.",
+        "Garnir d'aneth frais et servir avec un légume vert ou du riz."
+      ],
+      "astuce_meal_prep": "Préparer les légumes à l'avance. Le saumon se cuit en quelques minutes — idéal pour un souper rapide.",
+      "notes_caroline": "Recette naturellement sans gluten et sans lactose. Vérifier que la source du saumon est fiable."
+    },
+    {
+      "jour": "Mercredi",
+      "emoji": "🥬",
+      "titre": "Cari de pois chiches et de chou-fleur",
+      "url": "https://www.ricardocuisine.com/en/recipes/9149-chickpea-and-cauliflower-curry",
+      "site": "Ricardo Cuisine",
+      "proteine": "Légumineuses",
+      "saveur": "Indien",
+      "temps": 30,
+      "portions": 4,
+      "statut": "Confirmé",
+      "ingredients": [
+        {"nom": "Pois chiches Unico (conserve)", "quantite": "2 boîtes 398 ml", "magasin": "MAXI", "prix": "1,33 $/boîte — solde Maxi", "en_special": true},
+        {"nom": "Chou-fleur, en bouquets", "quantite": "1 tête entière", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Lait de coco (conserve)", "quantite": "1 boîte 400 ml", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Tomates en dés (conserve)", "quantite": "1 boîte 398 ml", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Oignon, haché", "quantite": "1 oignon", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Ail", "quantite": "2 gousses, hachées", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Cari en poudre", "quantite": "2 c. à soupe", "magasin": "MAXI", "prix": "en stock", "en_special": false},
+        {"nom": "Garam masala", "quantite": "1 c. à thé", "magasin": "MAXI", "prix": "en stock", "en_special": false},
+        {"nom": "Coriandre fraîche", "quantite": "1 bouquet", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Riz basmati", "quantite": "pour 4 portions", "magasin": "MAXI", "prix": "en stock", "en_special": false}
+      ],
+      "preparation": [
+        "Chauffer l'huile dans une grande casserole à feu moyen. Faire revenir l'oignon 5 min.",
+        "Ajouter l'ail, le cari en poudre et le garam masala ; mélanger 1 min.",
+        "Incorporer les tomates en dés, le lait de coco, les pois chiches et le chou-fleur.",
+        "Mijoter 15–20 min à feu moyen jusqu'à ce que le chou-fleur soit tendre et la sauce épaissie.",
+        "Garnir de coriandre fraîche et servir avec du riz basmati."
+      ],
+      "astuce_meal_prep": "Ce cari se réchauffe très bien et est encore meilleur le lendemain. Idéal pour les lunchs.",
+      "notes_caroline": "Recette naturellement sans gluten et sans lactose. Garam masala : vérifier sans gluten si marque inconnue."
+    },
+    {
+      "jour": "Jeudi",
+      "emoji": "🥩",
+      "titre": "Bœuf sauté aux olives et aux tomates",
+      "url": "https://www.ricardocuisine.com/en/recipes/8652-sauteed-beef-with-olives-and-tomatoes",
+      "site": "Ricardo Cuisine",
+      "proteine": "Viande rouge",
+      "saveur": "Méditerranéen",
+      "temps": 30,
+      "portions": 4,
+      "statut": "Confirmé",
+      "ingredients": [
+        {"nom": "Bifteck de surlonge, en lanières", "quantite": "450 g", "magasin": "MÉTRO", "prix": "prix courant", "en_special": false},
+        {"nom": "Tomates cerises", "quantite": "200 g, coupées en deux", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Olives vertes dénoyautées", "quantite": "75 g", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Oignon, haché", "quantite": "1 oignon", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Ail", "quantite": "2 gousses, hachées", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Raisins secs dorés", "quantite": "2 c. à soupe", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Huile d'olive", "quantite": "2 c. à soupe", "magasin": "MAXI", "prix": "en stock", "en_special": false}
+      ],
+      "preparation": [
+        "Chauffer l'huile dans une grande poêle à feu vif.",
+        "Saisir les lanières de bœuf 2–3 min. Retirer et réserver.",
+        "Dans la même poêle, faire revenir l'oignon et l'ail 3 min.",
+        "Ajouter les tomates, les olives et les raisins secs. Cuire 3–4 min.",
+        "Remettre le bœuf, mélanger et cuire 1 min. Servir sur du couscous de riz ou des légumes grillés."
+      ],
+      "astuce_meal_prep": "Couper le bœuf et les légumes à l'avance. La cuisson est très rapide.",
+      "notes_caroline": "Recette naturellement sans gluten et sans lactose. Vérifier le couscous si utilisé comme accompagnement — choisir du riz ou quinoa à la place."
+    },
+    {
+      "jour": "Vendredi",
+      "emoji": "🦐",
+      "titre": "Cari de crevettes au lait de coco",
+      "url": "https://www.ricardocuisine.com/en/recipes/150-shrimp-curry",
+      "site": "Ricardo Cuisine",
+      "proteine": "Fruits de mer",
+      "saveur": "Indien",
+      "temps": 40,
+      "portions": 4,
+      "statut": "Confirmé",
+      "ingredients": [
+        {"nom": "Crevettes fraîches/surgelées décortiquées", "quantite": "600 g", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Lait de coco (conserve)", "quantite": "1 boîte 400 ml", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Tomates fraîches (roma), hachées", "quantite": "3 tomates", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Oignon, haché", "quantite": "1 oignon", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Ail", "quantite": "2 gousses, hachées", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Gingembre frais râpé", "quantite": "1 c. à soupe", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Cari en poudre", "quantite": "2 c. à thé", "magasin": "MAXI", "prix": "en stock", "en_special": false},
+        {"nom": "Harissa ou piment fort", "quantite": "1 c. à thé", "magasin": "MAXI", "prix": "en stock", "en_special": false},
+        {"nom": "Lime (jus)", "quantite": "1 lime", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Coriandre fraîche", "quantite": "1 bouquet", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Petits pois surgelés", "quantite": "300 g", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Riz jasmin", "quantite": "pour 4 portions", "magasin": "MAXI", "prix": "en stock", "en_special": false}
+      ],
+      "preparation": [
+        "Chauffer l'huile dans une grande poêle à feu moyen. Faire revenir l'oignon, l'ail et le gingembre 3–4 min.",
+        "Ajouter le cari en poudre et la harissa ; mélanger 30 sec.",
+        "Incorporer les tomates et le lait de coco. Mijoter 10 min.",
+        "Ajouter les crevettes et les petits pois. Cuire 3–5 min jusqu'à ce que les crevettes soient roses.",
+        "Arroser de jus de lime, garnir de coriandre. Servir avec du riz jasmin."
+      ],
+      "astuce_meal_prep": "Si crevettes surgelées, décongeler la veille au réfrigérateur. La sauce peut être préparée à l'avance.",
+      "notes_caroline": "Recette naturellement sans gluten et sans lactose. Vérifier que les crevettes ne sont pas marinées avec des additifs contenant du gluten."
+    }
+  ],
+
+  "circulaires": {
+    "Maxi": [
+      {"produit": "Hauts de cuisse de poulet avec dos", "prix_promo": "1,95 $/lb", "prix_regulier": "", "economie_pct": "-22%", "categorie": "Volaille"},
+      {"produit": "Filet de saumon atlantique", "prix_promo": "8,99 $/lb", "prix_regulier": "", "economie_pct": "-31%", "categorie": "Poisson"},
+      {"produit": "Couronne de brocoli", "prix_promo": "1,50 $", "prix_regulier": "", "economie_pct": "-40%", "categorie": "Légume"},
+      {"produit": "Pommes de terre Russet (10 lb)", "prix_promo": "1,99 $", "prix_regulier": "", "economie_pct": "-56%", "categorie": "Légume"},
+      {"produit": "Légumineuses Unico (398 ml)", "prix_promo": "1,33 $", "prix_regulier": "", "economie_pct": "-33%", "categorie": "Épicerie sèche"},
+      {"produit": "Fromage P'tit Québec (400 g)", "prix_promo": "4,97 $", "prix_regulier": "", "economie_pct": "-23%", "categorie": "Produits laitiers"},
+      {"produit": "Bacon (375 g)", "prix_promo": "3,97 $", "prix_regulier": "", "economie_pct": "-28%", "categorie": "Charcuterie"}
+    ],
+    "Métro": [
+      {"produit": "Bœuf haché mi-maigre", "prix_promo": "5,44 $/lb", "prix_regulier": "", "economie_pct": "-22%", "categorie": "Bœuf"},
+      {"produit": "Steak de thon", "prix_promo": "8,99 $/lb", "prix_regulier": "", "economie_pct": "-31%", "categorie": "Poisson"}
+    ],
+    "Super C": [
+      {"produit": "Couronne de brocoli", "prix_promo": "1,48 $", "prix_regulier": "", "economie_pct": "-41%", "categorie": "Légume"},
+      {"produit": "Fraises (1 L)", "prix_promo": "1,77 $", "prix_regulier": "", "economie_pct": "-49%", "categorie": "Fruit"},
+      {"produit": "Ananas entier", "prix_promo": "1,77 $", "prix_regulier": "", "economie_pct": "-41%", "categorie": "Fruit"},
+      {"produit": "Pommes de terre (10 lb)", "prix_promo": "1,97 $", "prix_regulier": "", "economie_pct": "-56%", "categorie": "Légume"}
+    ],
+    "IGA": [
+      {"produit": "Filets de porc", "prix_promo": "3,99 $/lb", "prix_regulier": "", "economie_pct": "-33%", "categorie": "Porc"},
+      {"produit": "Asperges vertes (325 g)", "prix_promo": "2,47 $", "prix_regulier": "", "economie_pct": "-38%", "categorie": "Légume"}
+    ]
+  },
+
+  "imbattables_maxi": [
+    {
+      "produit": "Couronne de brocoli",
+      "prix_maxi": "1,50 $",
+      "prix_concurrent": "1,48 $",
+      "epicerie_concurrent": "Super C",
+      "note": "Super C légèrement moins cher (0,02$) — différence négligeable, Maxi est pratiquement Imbattable"
+    }
+  ],
+
+  "epicerie": {
+    "MAXI": {
+      "categories": {
+        "Viandes & protéines": [
+          {"nom": "Hauts de cuisse de poulet désossés", "quantite": "700 g", "prix": "1,95 $/lb", "en_special": true, "imbattable_note": ""},
+          {"nom": "Filet de saumon atlantique", "quantite": "600 g (4 portions)", "prix": "8,99 $/lb", "en_special": true, "imbattable_note": ""},
+          {"nom": "Crevettes fraîches/surgelées décortiquées", "quantite": "600 g", "prix": "prix courant", "en_special": false, "imbattable_note": ""}
+        ],
+        "Légumes": [
+          {"nom": "Couronne de brocoli", "quantite": "2 pièces", "prix": "1,50 $/pièce", "en_special": true, "imbattable_note": ""},
+          {"nom": "Chou-fleur (tête entière)", "quantite": "1 pièce", "prix": "prix courant", "en_special": false, "imbattable_note": ""},
+          {"nom": "Tomates cerises", "quantite": "300 g", "prix": "prix courant", "en_special": false, "imbattable_note": ""},
+          {"nom": "Tomates fraîches (roma)", "quantite": "3 pièces", "prix": "prix courant", "en_special": false, "imbattable_note": ""},
+          {"nom": "Oignons", "quantite": "3 oignons", "prix": "prix courant", "en_special": false, "imbattable_note": ""},
+          {"nom": "Ail", "quantite": "1 tête", "prix": "prix courant", "en_special": false, "imbattable_note": ""},
+          {"nom": "Oignons verts", "quantite": "1 botte", "prix": "prix courant", "en_special": false, "imbattable_note": ""},
+          {"nom": "Gingembre frais", "quantite": "~100 g", "prix": "prix courant", "en_special": false, "imbattable_note": ""},
+          {"nom": "Aneth frais", "quantite": "1 bouquet", "prix": "prix courant", "en_special": false, "imbattable_note": ""},
+          {"nom": "Coriandre fraîche", "quantite": "1 bouquet", "prix": "prix courant", "en_special": false, "imbattable_note": ""},
+          {"nom": "Basilic frais", "quantite": "1 bouquet", "prix": "prix courant", "en_special": false, "imbattable_note": ""}
+        ],
+        "Fruits": [
+          {"nom": "Limes", "quantite": "2 pièces", "prix": "prix courant", "en_special": false, "imbattable_note": ""}
+        ],
+        "Épicerie sèche & conserves": [
+          {"nom": "Pois chiches Unico (boîte)", "quantite": "2 boîtes 398 ml", "prix": "1,33 $/boîte", "en_special": true, "imbattable_note": ""},
+          {"nom": "Tomates en dés (boîte)", "quantite": "1 boîte 398 ml", "prix": "prix courant", "en_special": false, "imbattable_note": ""},
+          {"nom": "Lait de coco (boîte)", "quantite": "2 boîtes 400 ml", "prix": "prix courant", "en_special": false, "imbattable_note": ""},
+          {"nom": "Olives vertes dénoyautées", "quantite": "75 g", "prix": "prix courant", "en_special": false, "imbattable_note": ""},
+          {"nom": "Raisins secs dorés", "quantite": "125 ml", "prix": "prix courant", "en_special": false, "imbattable_note": ""},
+          {"nom": "Sauce tamari sans gluten", "quantite": "1 bouteille", "prix": "prix courant", "en_special": false, "imbattable_note": ""},
+          {"nom": "Sauce hoisin sans gluten", "quantite": "1 bouteille", "prix": "prix courant", "en_special": false, "imbattable_note": ""},
+          {"nom": "Huile de sésame grillée", "quantite": "1 bouteille", "prix": "prix courant", "en_special": false, "imbattable_note": ""},
+          {"nom": "Arachides non salées", "quantite": "75 g", "prix": "prix courant", "en_special": false, "imbattable_note": ""},
+          {"nom": "Petits pois surgelés", "quantite": "300 g", "prix": "prix courant", "en_special": false, "imbattable_note": ""},
+          {"nom": "Riz basmati ou jasmin", "quantite": "1 sac", "prix": "en stock", "en_special": false, "imbattable_note": ""}
+        ]
+      }
+    },
+    "MÉTRO": {
+      "categories": {
+        "Viandes": [
+          {"nom": "Bifteck de surlonge", "quantite": "450 g", "prix": "prix courant", "en_special": false, "imbattable_note": ""}
+        ]
+      }
+    }
+  },
+
+  "epicerie_flat": [
+    {"produit": "Hauts de cuisse de poulet désossés", "quantite": "700 g", "unite": "g", "prix": "1,95 $/lb", "categorie": "Viandes & protéines", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Filet de saumon atlantique", "quantite": "600 g", "unite": "g", "prix": "8,99 $/lb", "categorie": "Viandes & protéines", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Crevettes décortiquées", "quantite": "600 g", "unite": "g", "prix": "prix courant", "categorie": "Viandes & protéines", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Bifteck de surlonge", "quantite": "450 g", "unite": "g", "prix": "prix courant", "categorie": "Viandes & protéines", "epicerie": "MÉTRO", "imbattable_maxi": ""},
+    {"produit": "Couronnes de brocoli", "quantite": "2 pièces", "unite": "pièces", "prix": "1,50 $", "categorie": "Légumes", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Chou-fleur", "quantite": "1 tête", "unite": "tête", "prix": "prix courant", "categorie": "Légumes", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Tomates cerises", "quantite": "300 g", "unite": "g", "prix": "prix courant", "categorie": "Légumes", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Tomates fraîches roma", "quantite": "3 pièces", "unite": "pièces", "prix": "prix courant", "categorie": "Légumes", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Oignons", "quantite": "3 oignons", "unite": "pièces", "prix": "prix courant", "categorie": "Légumes", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Ail", "quantite": "1 tête", "unite": "tête", "prix": "prix courant", "categorie": "Légumes", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Oignons verts", "quantite": "1 botte", "unite": "botte", "prix": "prix courant", "categorie": "Légumes", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Gingembre frais", "quantite": "100 g", "unite": "g", "prix": "prix courant", "categorie": "Légumes", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Aneth frais", "quantite": "1 bouquet", "unite": "bouquet", "prix": "prix courant", "categorie": "Légumes", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Coriandre fraîche", "quantite": "1 bouquet", "unite": "bouquet", "prix": "prix courant", "categorie": "Légumes", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Basilic frais", "quantite": "1 bouquet", "unite": "bouquet", "prix": "prix courant", "categorie": "Légumes", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Limes", "quantite": "2 pièces", "unite": "pièces", "prix": "prix courant", "categorie": "Fruits", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Pois chiches Unico", "quantite": "2 boîtes 398 ml", "unite": "boîtes", "prix": "1,33 $", "categorie": "Épicerie sèche", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Tomates en dés", "quantite": "1 boîte 398 ml", "unite": "boîte", "prix": "prix courant", "categorie": "Épicerie sèche", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Lait de coco", "quantite": "2 boîtes 400 ml", "unite": "boîtes", "prix": "prix courant", "categorie": "Épicerie sèche", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Olives vertes dénoyautées", "quantite": "75 g", "unite": "g", "prix": "prix courant", "categorie": "Épicerie sèche", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Sauce tamari sans gluten", "quantite": "1 bouteille", "unite": "bouteille", "prix": "prix courant", "categorie": "Épicerie sèche", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Sauce hoisin sans gluten", "quantite": "1 bouteille", "unite": "bouteille", "prix": "prix courant", "categorie": "Épicerie sèche", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Petits pois surgelés", "quantite": "300 g", "unite": "g", "prix": "prix courant", "categorie": "Épicerie sèche", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Arachides non salées", "quantite": "75 g", "unite": "g", "prix": "prix courant", "categorie": "Épicerie sèche", "epicerie": "MAXI", "imbattable_maxi": ""}
+  ]
+}

@@ -1,0 +1,1653 @@
+{
+  "semaine": "2026-04-05",
+  "semaine_label": "5 avril 2026",
+  "semaine_id": "2026-W14",
+  "n_repas": 5,
+  "n_portions": 4,
+  "cout_estime": "95–110 $",
+  "contraintes": [
+    "Sans gluten",
+    "Sans lactose",
+    "Sans sucre raffiné"
+  ],
+  "notes_caroline": "Semaine de Pâques. Points d'attention : (1) Tamari sans gluten (ex: San-J) dans toutes les recettes soya. (2) Sauce hoisin : choisir une marque certifiée sans gluten (ex: Premier Japan) — crucial pour le sauté de crevettes, ou substituer par tamari + sirop d'érable + huile de sésame. (3) Filet de porc : recette Ricardo avec beurre → substituer par 2 c. à soupe d'huile d'olive pour version 100% sans lactose. (4) Riz frit bœuf : recette contient du sucre blanc → remplacé par sirop d'érable dans ce plan. (5) Mode automatique : N_REPAS = 5, N_PORTIONS = 4.",
+  "raisonnement": "Semaine du 5 avril 2026 (Pâques) : les soldes clés sont les filets de porc chez Metro (2,67 $/lb surgelé — excellent prix), le bœuf haché (Metro, 4,44 $/lb), les crevettes (Maxi, 5,88 $/300g), les asperges (Maxi, 2,44 $/325g — imbattable vs Super C 3,99 $), et les choux de Bruxelles (Maxi, 2,44 $/454g). Les 5 menus utilisent 4 protéines différentes (volaille, poisson, bœuf, porc, crevettes) et 4 saveurs (asiatique-québécois, méditerranéen-maghrébin, asiatique, québécois, asiatique). Recettes 100% issues des 6 sites approuvés.",
+  "menus": [
+    {
+      "jour": "Lundi",
+      "emoji": "🍗",
+      "titre": "Hauts de cuisse de poulet braisés, sauce soya & sirop d'érable",
+      "url": "https://www.troisfoisparjour.com/en/recipes/main-course/chicken-poultry/soy-sauce-maple-syrup-braised-chicken-thighs/",
+      "site": "Trois fois par jour",
+      "proteine": "Volaille",
+      "saveur": "Asiatique-Québécois",
+      "temps": 40,
+      "portions": 4,
+      "statut": "Confirmé",
+      "ingredients": [
+        {
+          "nom": "Hauts de cuisse de poulet désossés",
+          "quantite": "12 morceaux (env. 1,2 kg)",
+          "magasin": "MAXI",
+          "prix": "4,99 $/lb — solde Maxi",
+          "en_special": true
+        },
+        {
+          "nom": "Choux de Bruxelles, coupés en deux",
+          "quantite": "2 tasses (454 g)",
+          "magasin": "MAXI",
+          "prix": "2,44 $ / 454 g — solde Maxi",
+          "en_special": true
+        },
+        {
+          "nom": "Sauce tamari sans gluten",
+          "quantite": "1/4 tasse (60 ml)",
+          "magasin": "MAXI",
+          "prix": "prix courant",
+          "en_special": false
+        },
+        {
+          "nom": "Sirop d'érable",
+          "quantite": "2 c. à soupe (30 ml)",
+          "magasin": "MAXI",
+          "prix": "prix courant",
+          "en_special": false
+        },
+        {
+          "nom": "Huile d'olive (substitut beurre)",
+          "quantite": "1/4 tasse (60 ml)",
+          "magasin": "MAXI",
+          "prix": "en stock",
+          "en_special": false
+        },
+        {
+          "nom": "Eau",
+          "quantite": "3/4 tasse (180 ml)",
+          "magasin": "",
+          "prix": "",
+          "en_special": false
+        },
+        {
+          "nom": "Jus de citron",
+          "quantite": "d'un demi citron",
+          "magasin": "MAXI",
+          "prix": "prix courant",
+          "en_special": false
+        },
+        {
+          "nom": "Flocons de chili",
+          "quantite": "1 c. à thé",
+          "magasin": "MAXI",
+          "prix": "en stock",
+          "en_special": false
+        }
+      ],
+      "preparation": [
+        "Préchauffer le four à 400°F (200°C), grille au centre.",
+        "Dans un grand plat allant au four, combiner l'eau, l'huile d'olive, le tamari sans gluten, le sirop d'érable, le jus de citron et les flocons de chili.",
+        "Ajouter les hauts de cuisse et les choux de Bruxelles coupés en deux. Bien mélanger pour enrober.",
+        "Enfourner pendant 30 minutes, en retournant à mi-cuisson, jusqu'à ce que le poulet soit bien doré et cuit à cœur (75°C interne).",
+        "Servir avec le jus de cuisson et du riz basmati."
+      ],
+      "astuce_meal_prep": "Préparer le mélange de sauce la veille (tamari, érable, huile, eau, citron, chili). Couper les choux de Bruxelles. Le soir J, assembler et enfourner — prêt en 30 min.",
+      "notes_caroline": "Sauce tamari certifiée sans gluten obligatoire. Substituer le beurre original par de l'huile d'olive pour 100% sans lactose. Le sirop d'érable n'est pas un sucre raffiné. Choux de Bruxelles EN SOLDE chez Maxi!"
+    },
+    {
+      "jour": "Mardi",
+      "emoji": "🐟",
+      "titre": "Tournedos de saumon au sumac et fenouil grillé",
+      "url": "https://www.ricardocuisine.com/en/recipes/10408-salmon-tournedos-with-sumac-and-grilled-fennel",
+      "site": "Ricardo Cuisine",
+      "proteine": "Poisson",
+      "saveur": "Méditerranéen-Maghrébin",
+      "temps": 38,
+      "portions": 4,
+      "statut": "Confirmé",
+      "ingredients": [
+        {
+          "nom": "Filet de saumon sans peau, coupé en 4 morceaux (~140 g chacun)",
+          "quantite": "560 g total (~1,25 lb)",
+          "magasin": "MAXI",
+          "prix": "env. 9,99 $/lb",
+          "en_special": false
+        },
+        {
+          "nom": "Sumac moulu",
+          "quantite": "2 c. à soupe",
+          "magasin": "MAXI",
+          "prix": "prix courant",
+          "en_special": false
+        },
+        {
+          "nom": "Brins de romarin frais",
+          "quantite": "4 brins",
+          "magasin": "MAXI",
+          "prix": "prix courant",
+          "en_special": false
+        },
+        {
+          "nom": "Bulbes de fenouil, en quartiers",
+          "quantite": "2 bulbes",
+          "magasin": "MAXI",
+          "prix": "prix courant",
+          "en_special": false
+        },
+        {
+          "nom": "Huile d'olive",
+          "quantite": "1/4 tasse (60 ml)",
+          "magasin": "MAXI",
+          "prix": "en stock",
+          "en_special": false
+        },
+        {
+          "nom": "Tiges et feuilles de fenouil, finement hachées",
+          "quantite": "1/4 tasse tiges + 3 c. à soupe feuilles",
+          "magasin": "MAXI",
+          "prix": "utilisé des bulbes achetés",
+          "en_special": false
+        },
+        {
+          "nom": "Jus de citron",
+          "quantite": "1 c. à soupe",
+          "magasin": "MAXI",
+          "prix": "prix courant",
+          "en_special": false
+        }
+      ],
+      "preparation": [
+        "Préchauffer le barbecue ou le four gril à feu moyen-vif. Huiler la grille.",
+        "Verser le sumac dans une petite assiette. Papillonner chaque morceau de saumon horizontalement, saler, poivrer, rouler en tournedo et piquer un brin de romarin au centre. Enrober les côtés de sumac.",
+        "Enduire les quartiers de fenouil d'1 c. à soupe d'huile; saler et poivrer.",
+        "Mélanger tiges et feuilles de fenouil avec l'huile restante et le jus de citron; assaisonner. Réserver.",
+        "Griller les tournedos de saumon sur un côté 8 à 10 minutes. Griller le fenouil des deux côtés jusqu'à tendreté.",
+        "Dresser et napper du mélange fenouil-huile. Servir avec des quartiers de citron."
+      ],
+      "astuce_meal_prep": "Rouler et réfrigérer les tournedos de saumon jusqu'à 4h avant cuisson. Préparer la vinaigrette fenouil à l'avance.",
+      "notes_caroline": "Recette 100% sans gluten et sans lactose telle quelle — aucune substitution requise. Le sumac est naturellement sans gluten. Le fenouil peut sembler fort aux enfants — proposer le fenouil cuit seulement et ajuster la portion."
+    },
+    {
+      "jour": "Mercredi",
+      "emoji": "🥩",
+      "titre": "Riz frit au bœuf & aux poivrons",
+      "url": "https://www.troisfoisparjour.com/fr/recettes/plats-principaux/riz-grains/riz-frit-au-boeuf-aux-poivrons/",
+      "site": "Trois fois par jour",
+      "proteine": "Bœuf",
+      "saveur": "Asiatique",
+      "temps": 30,
+      "portions": 4,
+      "statut": "Confirmé",
+      "ingredients": [
+        {
+          "nom": "Bœuf haché maigre",
+          "quantite": "600 g (~1,35 lb)",
+          "magasin": "MÉTRO",
+          "prix": "4,44 $/lb — solde Métro",
+          "en_special": true
+        },
+        {
+          "nom": "Riz basmati",
+          "quantite": "2 tasses (500 ml)",
+          "magasin": "MAXI",
+          "prix": "prix courant",
+          "en_special": false
+        },
+        {
+          "nom": "Eau",
+          "quantite": "3 tasses (750 ml)",
+          "magasin": "",
+          "prix": "",
+          "en_special": false
+        },
+        {
+          "nom": "Poivrons rouges, épépinés, en dés",
+          "quantite": "4 poivrons",
+          "magasin": "MAXI",
+          "prix": "prix courant",
+          "en_special": false
+        },
+        {
+          "nom": "Gousses d'ail, hachées",
+          "quantite": "4 gousses",
+          "magasin": "MAXI",
+          "prix": "prix courant",
+          "en_special": false
+        },
+        {
+          "nom": "Gingembre frais, haché",
+          "quantite": "4 c. à thé",
+          "magasin": "MAXI",
+          "prix": "prix courant",
+          "en_special": false
+        },
+        {
+          "nom": "Petits pois verts surgelés",
+          "quantite": "1 tasse (250 ml)",
+          "magasin": "MAXI",
+          "prix": "prix courant",
+          "en_special": false
+        },
+        {
+          "nom": "Sauce tamari sans gluten",
+          "quantite": "8 c. à soupe (120 ml)",
+          "magasin": "MAXI",
+          "prix": "prix courant",
+          "en_special": false
+        },
+        {
+          "nom": "Sirop d'érable (substitut sucre raffiné)",
+          "quantite": "1 c. à thé",
+          "magasin": "MAXI",
+          "prix": "en stock",
+          "en_special": false
+        },
+        {
+          "nom": "Vinaigre de riz",
+          "quantite": "4 c. à thé",
+          "magasin": "MAXI",
+          "prix": "prix courant",
+          "en_special": false
+        },
+        {
+          "nom": "Huile végétale",
+          "quantite": "4 c. à soupe",
+          "magasin": "MAXI",
+          "prix": "en stock",
+          "en_special": false
+        }
+      ],
+      "preparation": [
+        "Rincer le riz basmati à l'eau froide jusqu'à eau claire. Combiner avec 3 tasses d'eau dans une casserole, couvrir, porter à ébullition, réduire à feu doux 12 minutes. Laisser reposer 5 minutes couvert.",
+        "Chauffer l'huile dans une grande poêle ou wok à feu moyen. Cuire le bœuf haché avec les poivrons, l'ail et le gingembre environ 8 minutes en remuant, jusqu'à cuisson complète.",
+        "Ajouter le riz cuit, les petits pois, le tamari, le sirop d'érable et le vinaigre de riz. Bien mélanger et cuire 2 à 3 minutes.",
+        "Rectifier l'assaisonnement au sel et poivre. Servir chaud."
+      ],
+      "astuce_meal_prep": "Cuire le riz la veille — le riz froid donne une meilleure texture pour le riz sauté. Hacher les poivrons, ail et gingembre à l'avance.",
+      "notes_caroline": "Tamari certifié sans gluten obligatoire. Recette originale contient du sucre blanc → remplacé par sirop d'érable. Recette naturellement sans lactose. Bœuf haché EN SOLDE chez Metro!"
+    },
+    {
+      "jour": "Jeudi",
+      "emoji": "🥩",
+      "titre": "Filet mignon de porc à l'érable",
+      "url": "https://www.ricardocuisine.com/en/recipes/6152-maple-pork-tenderloin",
+      "site": "Ricardo Cuisine",
+      "proteine": "Porc",
+      "saveur": "Québécois",
+      "temps": 25,
+      "portions": 4,
+      "statut": "Confirmé",
+      "ingredients": [
+        {
+          "nom": "Filets de porc surgelés décongelés",
+          "quantite": "2 filets (~900 g, ~2 lb)",
+          "magasin": "MÉTRO",
+          "prix": "2,67 $/lb surgelé — solde Métro",
+          "en_special": true
+        },
+        {
+          "nom": "Bouillon de poulet sans gluten",
+          "quantite": "1 tasse (250 ml)",
+          "magasin": "MAXI",
+          "prix": "prix courant",
+          "en_special": false
+        },
+        {
+          "nom": "Sirop d'érable",
+          "quantite": "1/4 tasse (60 ml)",
+          "magasin": "MAXI",
+          "prix": "en stock",
+          "en_special": false
+        },
+        {
+          "nom": "Moutarde de Dijon (sans gluten)",
+          "quantite": "2 c. à thé",
+          "magasin": "MAXI",
+          "prix": "prix courant",
+          "en_special": false
+        },
+        {
+          "nom": "Ketchup (sans gluten)",
+          "quantite": "2 c. à thé",
+          "magasin": "MAXI",
+          "prix": "en stock",
+          "en_special": false
+        },
+        {
+          "nom": "Fécule de maïs",
+          "quantite": "2 c. à thé",
+          "magasin": "MAXI",
+          "prix": "en stock",
+          "en_special": false
+        },
+        {
+          "nom": "Huile d'olive (substitut beurre original)",
+          "quantite": "2 c. à soupe",
+          "magasin": "MAXI",
+          "prix": "en stock",
+          "en_special": false
+        },
+        {
+          "nom": "Oignons, finement tranchés",
+          "quantite": "2 petits oignons",
+          "magasin": "MAXI",
+          "prix": "prix courant",
+          "en_special": false
+        },
+        {
+          "nom": "Asperges du Mexique (accompagnement)",
+          "quantite": "1 paquet (325 g)",
+          "magasin": "MAXI",
+          "prix": "2,44 $ — solde Maxi",
+          "en_special": true
+        }
+      ],
+      "preparation": [
+        "Dans un bol, mélanger le bouillon de poulet, le sirop d'érable, la moutarde, le ketchup et la fécule de maïs. Réserver.",
+        "Couper chaque filet de porc en médaillons de 1,5 cm d'épaisseur.",
+        "Chauffer l'huile d'olive dans une grande poêle à feu moyen-vif. Faire revenir les médaillons de porc en lots jusqu'à belle dorure, 2-3 minutes par côté. Saler, poivrer. Réserver.",
+        "Dans la même poêle à feu moyen, faire revenir les oignons 2 minutes. Verser le mélange de bouillon et remettre le porc. Laisser mijoter 2 minutes à feu moyen-doux.",
+        "Pendant ce temps, cuire les asperges à la vapeur ou dans une poêle huilée, 4-5 minutes jusqu'à al dente.",
+        "Servir les médaillons nappés de sauce érable avec les asperges et du riz si désiré."
+      ],
+      "astuce_meal_prep": "Décongeler les filets de porc la veille au réfrigérateur. Préparer le mélange de sauce à l'avance. Trancher les médaillons au moment de cuire.",
+      "notes_caroline": "La recette originale Ricardo utilise du beurre → substitué par huile d'olive pour version 100% sans lactose. Sirop d'érable = sucre naturel non raffiné. Vérifier ketchup et moutarde: choisir des marques sans sucre ajouté. Asperges EN SOLDE chez Maxi cette semaine!"
+    },
+    {
+      "jour": "Vendredi",
+      "emoji": "🦐",
+      "titre": "Sauté de crevettes au sésame",
+      "url": "https://www.ricardocuisine.com/en/recipes/3108-sesame-shrimp-stir-fry",
+      "site": "Ricardo Cuisine",
+      "proteine": "Fruits de mer",
+      "saveur": "Asiatique",
+      "temps": 25,
+      "portions": 4,
+      "statut": "Confirmé",
+      "ingredients": [
+        {
+          "nom": "Crevettes décortiquées et déveinées (20-30 count)",
+          "quantite": "675 g (3 paquets de 300 g)",
+          "magasin": "MAXI",
+          "prix": "5,88 $/paquet — solde Maxi",
+          "en_special": true
+        },
+        {
+          "nom": "Sauce hoisin sans gluten (ex: Premier Japan)",
+          "quantite": "1/4 tasse (60 ml)",
+          "magasin": "MAXI",
+          "prix": "prix courant",
+          "en_special": false
+        },
+        {
+          "nom": "Vinaigre de riz",
+          "quantite": "2 c. à soupe (30 ml)",
+          "magasin": "MAXI",
+          "prix": "prix courant",
+          "en_special": false
+        },
+        {
+          "nom": "Sauce tamari sans gluten",
+          "quantite": "2 c. à soupe (30 ml)",
+          "magasin": "MAXI",
+          "prix": "prix courant",
+          "en_special": false
+        },
+        {
+          "nom": "Pois mange-tout (snow peas), en biais",
+          "quantite": "2 tasses (500 ml)",
+          "magasin": "MAXI",
+          "prix": "prix courant",
+          "en_special": false
+        },
+        {
+          "nom": "Oignons verts, finement tranchés (blancs et verts séparés)",
+          "quantite": "6 oignons verts",
+          "magasin": "MAXI",
+          "prix": "prix courant",
+          "en_special": false
+        },
+        {
+          "nom": "Graines de sésame",
+          "quantite": "2 c. à soupe",
+          "magasin": "MAXI",
+          "prix": "prix courant",
+          "en_special": false
+        },
+        {
+          "nom": "Gingembre frais, haché",
+          "quantite": "1 c. à soupe",
+          "magasin": "MAXI",
+          "prix": "prix courant",
+          "en_special": false
+        },
+        {
+          "nom": "Gousses d'ail, hachées",
+          "quantite": "2 gousses",
+          "magasin": "MAXI",
+          "prix": "prix courant",
+          "en_special": false
+        },
+        {
+          "nom": "Sambal oelek (pâte de chili)",
+          "quantite": "1/4 c. à thé",
+          "magasin": "MAXI",
+          "prix": "en stock",
+          "en_special": false
+        },
+        {
+          "nom": "Huile de sésame grillée",
+          "quantite": "2 c. à soupe (30 ml)",
+          "magasin": "MAXI",
+          "prix": "prix courant",
+          "en_special": false
+        },
+        {
+          "nom": "Huile végétale",
+          "quantite": "1/4 tasse (60 ml)",
+          "magasin": "MAXI",
+          "prix": "en stock",
+          "en_special": false
+        }
+      ],
+      "preparation": [
+        "Mélanger la sauce hoisin sans gluten, le vinaigre de riz et le tamari dans un bol. Réserver.",
+        "Assécher les crevettes avec du papier absorbant.",
+        "Chauffer la moitié de l'huile végétale dans un wok à feu vif. Sauter la moitié des crevettes 2 minutes jusqu'à changement de couleur. Saler et réserver. Répéter avec l'huile et les crevettes restantes.",
+        "Dans le même wok à feu moyen-vif, sauter les pois mange-tout, les blancs d'oignons verts, les graines de sésame, le gingembre et l'ail dans l'huile de sésame, 3 à 4 minutes.",
+        "Remettre les crevettes, ajouter la sauce réservée et sauter 1 à 2 minutes. Garnir des verts d'oignons.",
+        "Servir immédiatement sur du riz basmati cuit."
+      ],
+      "astuce_meal_prep": "Préparer la sauce la veille (hoisin + tamari + vinaigre). Décortiquer et conserver les crevettes au froid. Le soir J, cuisson express de 10-12 min seulement!",
+      "notes_caroline": "CRITIQUE: sauce hoisin certifiée sans gluten (la plupart contiennent du blé). Alternative: remplacer hoisin par 3 c. à soupe de tamari + 1 c. à thé de sirop d'érable + 1 c. à thé d'huile de sésame. Tamari sans gluten obligatoire. Recette naturellement sans lactose et sans sucre raffiné. Crevettes EN SOLDE chez Maxi (5,88 $/300g)!"
+    }
+  ],
+  "circulaires": [
+    {
+      "epicerie": "Maxi",
+      "produit": "Poitrines de poulet désossées",
+      "categorie": "Volaille",
+      "prix_promo": "4,99 $/lb",
+      "prix_regulier": "",
+      "economie_pct": ""
+    },
+    {
+      "epicerie": "Maxi",
+      "produit": "Crevettes (paquet 300 g)",
+      "categorie": "Fruits de mer",
+      "prix_promo": "5,88 $",
+      "prix_regulier": "",
+      "economie_pct": ""
+    },
+    {
+      "epicerie": "Maxi",
+      "produit": "Asperges du Mexique (325 g)",
+      "categorie": "Légume",
+      "prix_promo": "2,44 $",
+      "prix_regulier": "",
+      "economie_pct": ""
+    },
+    {
+      "epicerie": "Maxi",
+      "produit": "Choux de Bruxelles (454 g)",
+      "categorie": "Légume",
+      "prix_promo": "2,44 $",
+      "prix_regulier": "",
+      "economie_pct": ""
+    },
+    {
+      "epicerie": "Maxi",
+      "produit": "Raisins verts sans pépins",
+      "categorie": "Fruit",
+      "prix_promo": "1,77 $/lb",
+      "prix_regulier": "",
+      "economie_pct": ""
+    },
+    {
+      "epicerie": "Maxi",
+      "produit": "Ananas entier (membre PC Optimum)",
+      "categorie": "Fruit",
+      "prix_promo": "1,00 $",
+      "prix_regulier": "",
+      "economie_pct": ""
+    },
+    {
+      "epicerie": "Maxi",
+      "produit": "Longe de porc fraîche",
+      "categorie": "Porc",
+      "prix_promo": "3,99 $/lb",
+      "prix_regulier": "",
+      "economie_pct": ""
+    },
+    {
+      "epicerie": "Métro",
+      "produit": "Filets de porc surgelés",
+      "categorie": "Porc",
+      "prix_promo": "2,67 $/lb",
+      "prix_regulier": "",
+      "economie_pct": ""
+    },
+    {
+      "epicerie": "Métro",
+      "produit": "Bœuf haché maigre",
+      "categorie": "Bœuf",
+      "prix_promo": "4,44 $/lb",
+      "prix_regulier": "",
+      "economie_pct": ""
+    },
+    {
+      "epicerie": "Métro",
+      "produit": "Rôti de côtes de bœuf",
+      "categorie": "Bœuf",
+      "prix_promo": "10,99 $/lb",
+      "prix_regulier": "",
+      "economie_pct": ""
+    },
+    {
+      "epicerie": "Métro",
+      "produit": "Côtelettes d'agneau",
+      "categorie": "Agneau",
+      "prix_promo": "12,99 $/lb",
+      "prix_regulier": "",
+      "economie_pct": ""
+    },
+    {
+      "epicerie": "Métro",
+      "produit": "Quart de jambon fumé",
+      "categorie": "Porc",
+      "prix_promo": "3,49 $/lb",
+      "prix_regulier": "",
+      "economie_pct": ""
+    },
+    {
+      "epicerie": "Métro",
+      "produit": "Saumon Atlantique frais",
+      "categorie": "Poisson",
+      "prix_promo": "9,99 $/lb",
+      "prix_regulier": "",
+      "economie_pct": ""
+    },
+    {
+      "epicerie": "Super C",
+      "produit": "Asperges",
+      "categorie": "Légume",
+      "prix_promo": "3,99 $",
+      "prix_regulier": "",
+      "economie_pct": ""
+    },
+    {
+      "epicerie": "Super C",
+      "produit": "Pommes de terre Russet (10 lb)",
+      "categorie": "Légume",
+      "prix_promo": "4,99 $",
+      "prix_regulier": "",
+      "economie_pct": ""
+    },
+    {
+      "epicerie": "Super C",
+      "produit": "Raisins verts sans pépins",
+      "categorie": "Fruit",
+      "prix_promo": "1,77 $/lb",
+      "prix_regulier": "",
+      "economie_pct": ""
+    },
+    {
+      "epicerie": "Super C",
+      "produit": "Dindon entier",
+      "categorie": "Volaille",
+      "prix_promo": "1,99 $/lb",
+      "prix_regulier": "",
+      "economie_pct": ""
+    },
+    {
+      "epicerie": "Super C",
+      "produit": "Côtelettes de porc",
+      "categorie": "Porc",
+      "prix_promo": "2,44 $/lb",
+      "prix_regulier": "",
+      "economie_pct": ""
+    },
+    {
+      "epicerie": "Super C",
+      "produit": "Gigot d'agneau frais",
+      "categorie": "Agneau",
+      "prix_promo": "6,99 $/lb",
+      "prix_regulier": "",
+      "economie_pct": ""
+    },
+    {
+      "epicerie": "Super C",
+      "produit": "Fromage Cracker Barrel",
+      "categorie": "Produits laitiers",
+      "prix_promo": "5,97 $",
+      "prix_regulier": "",
+      "economie_pct": ""
+    },
+    {
+      "epicerie": "Super C",
+      "produit": "Jambon fumé désossé Sélection (1,4 kg)",
+      "categorie": "Porc",
+      "prix_promo": "12,99 $",
+      "prix_regulier": "",
+      "economie_pct": ""
+    },
+    {
+      "epicerie": "IGA",
+      "produit": "Saumon Atlantique frais (membres)",
+      "categorie": "Poisson",
+      "prix_promo": "8,99 $/lb",
+      "prix_regulier": "",
+      "economie_pct": ""
+    },
+    {
+      "epicerie": "IGA",
+      "produit": "Dindon entier",
+      "categorie": "Volaille",
+      "prix_promo": "1,99 $/lb",
+      "prix_regulier": "",
+      "economie_pct": ""
+    },
+    {
+      "epicerie": "IGA",
+      "produit": "Fromage P'tit Québec (400 g)",
+      "categorie": "Produits laitiers",
+      "prix_promo": "4,97 $",
+      "prix_regulier": "",
+      "economie_pct": ""
+    },
+    {
+      "epicerie": "IGA",
+      "produit": "Sirop d'érable 540 ml (membres)",
+      "categorie": "Épicerie sèche",
+      "prix_promo": "5,99 $",
+      "prix_regulier": "",
+      "economie_pct": ""
+    },
+    {
+      "epicerie": "IGA",
+      "produit": "Prosciutto (100 g)",
+      "categorie": "Charcuterie",
+      "prix_promo": "3,99 $",
+      "prix_regulier": "",
+      "economie_pct": ""
+    }
+  ],
+  "imbattables_maxi": [
+    {
+      "produit": "Asperges du Mexique (325 g)",
+      "prix_maxi": "2,44 $",
+      "prix_concurrent": "3,99 $",
+      "epicerie_concurrent": "Super C",
+      "note": "Même en promotion chez Super C, les asperges sont 1,55 $ plus chères qu'au prix courant Maxi. → Mentionner à la caisse Maxi : Super C 3,99 $"
+    },
+    {
+      "produit": "Raisins verts sans pépins",
+      "prix_maxi": "1,77 $/lb",
+      "prix_concurrent": "1,77 $/lb",
+      "epicerie_concurrent": "Super C",
+      "note": "Prix identique cette semaine — confirme la compétitivité de Maxi sans déplacement."
+    },
+    {
+      "produit": "Crevettes (300 g)",
+      "prix_maxi": "5,88 $",
+      "prix_concurrent": "N/D",
+      "epicerie_concurrent": "",
+      "note": "Prix concurrent non trouvé. Prix Maxi considéré compétitif pour les crevettes fraîches."
+    }
+  ],
+  "epicerie": [
+    {
+      "produit": "Hauts de cuisse de poulet désossés",
+      "quantite": "1,4 kg",
+      "unite": "kg",
+      "prix": "4,99 $/lb",
+      "categorie": "Viandes & protéines",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Filet de saumon frais sans peau",
+      "quantite": "560 g",
+      "unite": "g",
+      "prix": "env. 9,99 $/lb",
+      "categorie": "Viandes & protéines",
+      "epicerie": "MAXI",
+      "imbattable_maxi": "IGA membres: 8,99 $/lb"
+    },
+    {
+      "produit": "Crevettes décortiquées (300 g)",
+      "quantite": "3 paquets",
+      "unite": "paquets",
+      "prix": "5,88 $/paquet",
+      "categorie": "Viandes & protéines",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Filets de porc surgelés",
+      "quantite": "900 g",
+      "unite": "g",
+      "prix": "2,67 $/lb",
+      "categorie": "Viandes & protéines",
+      "epicerie": "MÉTRO",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Bœuf haché maigre",
+      "quantite": "600 g",
+      "unite": "g",
+      "prix": "4,44 $/lb",
+      "categorie": "Viandes & protéines",
+      "epicerie": "MÉTRO",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Choux de Bruxelles (454 g)",
+      "quantite": "1 paquet",
+      "unite": "paquet",
+      "prix": "2,44 $",
+      "categorie": "Légumes",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Asperges du Mexique (325 g)",
+      "quantite": "1 paquet",
+      "unite": "paquet",
+      "prix": "2,44 $",
+      "categorie": "Légumes",
+      "epicerie": "MAXI",
+      "imbattable_maxi": "Mentionner à la caisse Maxi : Super C 3,99 $"
+    },
+    {
+      "produit": "Bulbes de fenouil",
+      "quantite": "2 bulbes",
+      "unite": "bulbes",
+      "prix": "prix courant",
+      "categorie": "Légumes",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Poivrons rouges",
+      "quantite": "4 poivrons",
+      "unite": "pièces",
+      "prix": "prix courant",
+      "categorie": "Légumes",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Pois mange-tout (snow peas)",
+      "quantite": "300 g",
+      "unite": "g",
+      "prix": "prix courant",
+      "categorie": "Légumes",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Oignons",
+      "quantite": "2 oignons",
+      "unite": "pièces",
+      "prix": "prix courant",
+      "categorie": "Légumes",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Ail",
+      "quantite": "1 tête",
+      "unite": "tête",
+      "prix": "prix courant",
+      "categorie": "Légumes",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Gingembre frais",
+      "quantite": "100 g",
+      "unite": "g",
+      "prix": "prix courant",
+      "categorie": "Légumes",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Oignons verts",
+      "quantite": "1 botte",
+      "unite": "botte",
+      "prix": "prix courant",
+      "categorie": "Légumes",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Petits pois surgelés",
+      "quantite": "300 g",
+      "unite": "g",
+      "prix": "prix courant",
+      "categorie": "Légumes",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Romarin frais",
+      "quantite": "1 brin",
+      "unite": "brin",
+      "prix": "prix courant",
+      "categorie": "Légumes",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Citrons",
+      "quantite": "3 citrons",
+      "unite": "pièces",
+      "prix": "prix courant",
+      "categorie": "Fruits",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Riz basmati",
+      "quantite": "1 sac 2 kg",
+      "unite": "sac",
+      "prix": "prix courant",
+      "categorie": "Épicerie sèche & conserves",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Sauce tamari sans gluten",
+      "quantite": "1 bouteille",
+      "unite": "bouteille",
+      "prix": "prix courant",
+      "categorie": "Épicerie sèche & conserves",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Sauce hoisin sans gluten (ex: Premier Japan)",
+      "quantite": "1 bouteille",
+      "unite": "bouteille",
+      "prix": "prix courant",
+      "categorie": "Épicerie sèche & conserves",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Vinaigre de riz",
+      "quantite": "1 bouteille",
+      "unite": "bouteille",
+      "prix": "prix courant",
+      "categorie": "Épicerie sèche & conserves",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Sirop d'érable",
+      "quantite": "1 bouteille",
+      "unite": "bouteille",
+      "prix": "prix courant",
+      "categorie": "Épicerie sèche & conserves",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Moutarde de Dijon sans gluten",
+      "quantite": "1 pot",
+      "unite": "pot",
+      "prix": "prix courant",
+      "categorie": "Épicerie sèche & conserves",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Ketchup sans gluten",
+      "quantite": "1 bouteille",
+      "unite": "bouteille",
+      "prix": "prix courant",
+      "categorie": "Épicerie sèche & conserves",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Bouillon de poulet sans gluten",
+      "quantite": "1 carton",
+      "unite": "carton",
+      "prix": "prix courant",
+      "categorie": "Épicerie sèche & conserves",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Sumac moulu",
+      "quantite": "1 contenant",
+      "unite": "contenant",
+      "prix": "prix courant",
+      "categorie": "Épices",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Graines de sésame",
+      "quantite": "1 sac",
+      "unite": "sac",
+      "prix": "prix courant",
+      "categorie": "Épices",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Huile de sésame grillée",
+      "quantite": "1 bouteille",
+      "unite": "bouteille",
+      "prix": "prix courant",
+      "categorie": "Épices",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Sambal oelek",
+      "quantite": "1 bocal",
+      "unite": "bocal",
+      "prix": "prix courant",
+      "categorie": "Épices",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    }
+  ],
+  "epicerie_flat": [
+    {
+      "produit": "Hauts de cuisse de poulet désossés",
+      "quantite": "1,4 kg",
+      "unite": "kg",
+      "prix": "4,99 $/lb",
+      "categorie": "Viandes & protéines",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Filet de saumon frais sans peau",
+      "quantite": "560 g",
+      "unite": "g",
+      "prix": "env. 9,99 $/lb",
+      "categorie": "Viandes & protéines",
+      "epicerie": "MAXI",
+      "imbattable_maxi": "IGA membres: 8,99 $/lb"
+    },
+    {
+      "produit": "Crevettes décortiquées (300 g)",
+      "quantite": "3 paquets",
+      "unite": "paquets",
+      "prix": "5,88 $/paquet",
+      "categorie": "Viandes & protéines",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Filets de porc surgelés",
+      "quantite": "900 g",
+      "unite": "g",
+      "prix": "2,67 $/lb",
+      "categorie": "Viandes & protéines",
+      "epicerie": "MÉTRO",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Bœuf haché maigre",
+      "quantite": "600 g",
+      "unite": "g",
+      "prix": "4,44 $/lb",
+      "categorie": "Viandes & protéines",
+      "epicerie": "MÉTRO",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Choux de Bruxelles (454 g)",
+      "quantite": "1 paquet",
+      "unite": "paquet",
+      "prix": "2,44 $",
+      "categorie": "Légumes",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Asperges du Mexique (325 g)",
+      "quantite": "1 paquet",
+      "unite": "paquet",
+      "prix": "2,44 $",
+      "categorie": "Légumes",
+      "epicerie": "MAXI",
+      "imbattable_maxi": "Mentionner à la caisse Maxi : Super C 3,99 $"
+    },
+    {
+      "produit": "Bulbes de fenouil",
+      "quantite": "2 bulbes",
+      "unite": "bulbes",
+      "prix": "prix courant",
+      "categorie": "Légumes",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Poivrons rouges",
+      "quantite": "4 poivrons",
+      "unite": "pièces",
+      "prix": "prix courant",
+      "categorie": "Légumes",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Pois mange-tout (snow peas)",
+      "quantite": "300 g",
+      "unite": "g",
+      "prix": "prix courant",
+      "categorie": "Légumes",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Oignons",
+      "quantite": "2 oignons",
+      "unite": "pièces",
+      "prix": "prix courant",
+      "categorie": "Légumes",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Ail",
+      "quantite": "1 tête",
+      "unite": "tête",
+      "prix": "prix courant",
+      "categorie": "Légumes",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Gingembre frais",
+      "quantite": "100 g",
+      "unite": "g",
+      "prix": "prix courant",
+      "categorie": "Légumes",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Oignons verts",
+      "quantite": "1 botte",
+      "unite": "botte",
+      "prix": "prix courant",
+      "categorie": "Légumes",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Petits pois surgelés",
+      "quantite": "300 g",
+      "unite": "g",
+      "prix": "prix courant",
+      "categorie": "Légumes",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Romarin frais",
+      "quantite": "1 brin",
+      "unite": "brin",
+      "prix": "prix courant",
+      "categorie": "Légumes",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Citrons",
+      "quantite": "3 citrons",
+      "unite": "pièces",
+      "prix": "prix courant",
+      "categorie": "Fruits",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Riz basmati",
+      "quantite": "1 sac 2 kg",
+      "unite": "sac",
+      "prix": "prix courant",
+      "categorie": "Épicerie sèche & conserves",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Sauce tamari sans gluten",
+      "quantite": "1 bouteille",
+      "unite": "bouteille",
+      "prix": "prix courant",
+      "categorie": "Épicerie sèche & conserves",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Sauce hoisin sans gluten (ex: Premier Japan)",
+      "quantite": "1 bouteille",
+      "unite": "bouteille",
+      "prix": "prix courant",
+      "categorie": "Épicerie sèche & conserves",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Vinaigre de riz",
+      "quantite": "1 bouteille",
+      "unite": "bouteille",
+      "prix": "prix courant",
+      "categorie": "Épicerie sèche & conserves",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Sirop d'érable",
+      "quantite": "1 bouteille",
+      "unite": "bouteille",
+      "prix": "prix courant",
+      "categorie": "Épicerie sèche & conserves",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Moutarde de Dijon sans gluten",
+      "quantite": "1 pot",
+      "unite": "pot",
+      "prix": "prix courant",
+      "categorie": "Épicerie sèche & conserves",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Ketchup sans gluten",
+      "quantite": "1 bouteille",
+      "unite": "bouteille",
+      "prix": "prix courant",
+      "categorie": "Épicerie sèche & conserves",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Bouillon de poulet sans gluten",
+      "quantite": "1 carton",
+      "unite": "carton",
+      "prix": "prix courant",
+      "categorie": "Épicerie sèche & conserves",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Sumac moulu",
+      "quantite": "1 contenant",
+      "unite": "contenant",
+      "prix": "prix courant",
+      "categorie": "Épices",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Graines de sésame",
+      "quantite": "1 sac",
+      "unite": "sac",
+      "prix": "prix courant",
+      "categorie": "Épices",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Huile de sésame grillée",
+      "quantite": "1 bouteille",
+      "unite": "bouteille",
+      "prix": "prix courant",
+      "categorie": "Épices",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    },
+    {
+      "produit": "Sambal oelek",
+      "quantite": "1 bocal",
+      "unite": "bocal",
+      "prix": "prix courant",
+      "categorie": "Épices",
+      "epicerie": "MAXI",
+      "imbattable_maxi": ""
+    }
+  ],
+  "circulaires_dict": {
+    "Maxi": [
+      {
+        "produit": "Poitrines de poulet désossées",
+        "prix_promo": "4,99 $/lb",
+        "prix_regulier": "",
+        "economie_pct": "",
+        "categorie": "Volaille"
+      },
+      {
+        "produit": "Crevettes (paquet 300 g)",
+        "prix_promo": "5,88 $",
+        "prix_regulier": "",
+        "economie_pct": "",
+        "categorie": "Fruits de mer"
+      },
+      {
+        "produit": "Asperges du Mexique (325 g)",
+        "prix_promo": "2,44 $",
+        "prix_regulier": "",
+        "economie_pct": "",
+        "categorie": "Légume"
+      },
+      {
+        "produit": "Choux de Bruxelles (454 g)",
+        "prix_promo": "2,44 $",
+        "prix_regulier": "",
+        "economie_pct": "",
+        "categorie": "Légume"
+      },
+      {
+        "produit": "Raisins verts sans pépins",
+        "prix_promo": "1,77 $/lb",
+        "prix_regulier": "",
+        "economie_pct": "",
+        "categorie": "Fruit"
+      },
+      {
+        "produit": "Ananas entier (membre PC Optimum)",
+        "prix_promo": "1,00 $",
+        "prix_regulier": "",
+        "economie_pct": "",
+        "categorie": "Fruit"
+      },
+      {
+        "produit": "Longe de porc fraîche",
+        "prix_promo": "3,99 $/lb",
+        "prix_regulier": "",
+        "economie_pct": "",
+        "categorie": "Porc"
+      }
+    ],
+    "Métro": [
+      {
+        "produit": "Filets de porc surgelés",
+        "prix_promo": "2,67 $/lb",
+        "prix_regulier": "",
+        "economie_pct": "",
+        "categorie": "Porc"
+      },
+      {
+        "produit": "Bœuf haché maigre",
+        "prix_promo": "4,44 $/lb",
+        "prix_regulier": "",
+        "economie_pct": "",
+        "categorie": "Bœuf"
+      },
+      {
+        "produit": "Rôti de côtes de bœuf",
+        "prix_promo": "10,99 $/lb",
+        "prix_regulier": "",
+        "economie_pct": "",
+        "categorie": "Bœuf"
+      },
+      {
+        "produit": "Côtelettes d'agneau",
+        "prix_promo": "12,99 $/lb",
+        "prix_regulier": "",
+        "economie_pct": "",
+        "categorie": "Agneau"
+      },
+      {
+        "produit": "Quart de jambon fumé",
+        "prix_promo": "3,49 $/lb",
+        "prix_regulier": "",
+        "economie_pct": "",
+        "categorie": "Porc"
+      },
+      {
+        "produit": "Saumon Atlantique frais",
+        "prix_promo": "9,99 $/lb",
+        "prix_regulier": "",
+        "economie_pct": "",
+        "categorie": "Poisson"
+      }
+    ],
+    "Super C": [
+      {
+        "produit": "Asperges",
+        "prix_promo": "3,99 $",
+        "prix_regulier": "",
+        "economie_pct": "",
+        "categorie": "Légume"
+      },
+      {
+        "produit": "Pommes de terre Russet (10 lb)",
+        "prix_promo": "4,99 $",
+        "prix_regulier": "",
+        "economie_pct": "",
+        "categorie": "Légume"
+      },
+      {
+        "produit": "Raisins verts sans pépins",
+        "prix_promo": "1,77 $/lb",
+        "prix_regulier": "",
+        "economie_pct": "",
+        "categorie": "Fruit"
+      },
+      {
+        "produit": "Dindon entier",
+        "prix_promo": "1,99 $/lb",
+        "prix_regulier": "",
+        "economie_pct": "",
+        "categorie": "Volaille"
+      },
+      {
+        "produit": "Côtelettes de porc",
+        "prix_promo": "2,44 $/lb",
+        "prix_regulier": "",
+        "economie_pct": "",
+        "categorie": "Porc"
+      },
+      {
+        "produit": "Gigot d'agneau frais",
+        "prix_promo": "6,99 $/lb",
+        "prix_regulier": "",
+        "economie_pct": "",
+        "categorie": "Agneau"
+      },
+      {
+        "produit": "Fromage Cracker Barrel",
+        "prix_promo": "5,97 $",
+        "prix_regulier": "",
+        "economie_pct": "",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "produit": "Jambon fumé désossé Sélection (1,4 kg)",
+        "prix_promo": "12,99 $",
+        "prix_regulier": "",
+        "economie_pct": "",
+        "categorie": "Porc"
+      }
+    ],
+    "IGA": [
+      {
+        "produit": "Saumon Atlantique frais (membres)",
+        "prix_promo": "8,99 $/lb",
+        "prix_regulier": "",
+        "economie_pct": "",
+        "categorie": "Poisson"
+      },
+      {
+        "produit": "Dindon entier",
+        "prix_promo": "1,99 $/lb",
+        "prix_regulier": "",
+        "economie_pct": "",
+        "categorie": "Volaille"
+      },
+      {
+        "produit": "Fromage P'tit Québec (400 g)",
+        "prix_promo": "4,97 $",
+        "prix_regulier": "",
+        "economie_pct": "",
+        "categorie": "Produits laitiers"
+      },
+      {
+        "produit": "Sirop d'érable 540 ml (membres)",
+        "prix_promo": "5,99 $",
+        "prix_regulier": "",
+        "economie_pct": "",
+        "categorie": "Épicerie sèche"
+      },
+      {
+        "produit": "Prosciutto (100 g)",
+        "prix_promo": "3,99 $",
+        "prix_regulier": "",
+        "economie_pct": "",
+        "categorie": "Charcuterie"
+      }
+    ]
+  },
+  "epicerie_categories": {
+    "MAXI": {
+      "categories": {
+        "Viandes & protéines": [
+          {
+            "nom": "Hauts de cuisse de poulet désossés",
+            "quantite": "~1,4 kg (3 lb)",
+            "prix": "4,99 $/lb",
+            "en_special": true,
+            "imbattable_note": ""
+          },
+          {
+            "nom": "Filet de saumon frais sans peau",
+            "quantite": "~560 g (1,25 lb)",
+            "prix": "env. 9,99 $/lb",
+            "en_special": false,
+            "imbattable_note": "IGA membres: 8,99 $/lb"
+          },
+          {
+            "nom": "Crevettes décortiquées (300 g)",
+            "quantite": "3 paquets × 300 g",
+            "prix": "5,88 $/paquet",
+            "en_special": true,
+            "imbattable_note": ""
+          }
+        ],
+        "Légumes": [
+          {
+            "nom": "Choux de Bruxelles (454 g)",
+            "quantite": "1 paquet",
+            "prix": "2,44 $",
+            "en_special": true,
+            "imbattable_note": ""
+          },
+          {
+            "nom": "Asperges du Mexique (325 g)",
+            "quantite": "1 paquet",
+            "prix": "2,44 $",
+            "en_special": true,
+            "imbattable_note": "→ Mentionner à la caisse Maxi : Super C 3,99 $"
+          },
+          {
+            "nom": "Bulbes de fenouil",
+            "quantite": "2 bulbes",
+            "prix": "prix courant",
+            "en_special": false,
+            "imbattable_note": ""
+          },
+          {
+            "nom": "Poivrons rouges",
+            "quantite": "4 poivrons",
+            "prix": "prix courant",
+            "en_special": false,
+            "imbattable_note": ""
+          },
+          {
+            "nom": "Pois mange-tout",
+            "quantite": "~300 g",
+            "prix": "prix courant",
+            "en_special": false,
+            "imbattable_note": ""
+          },
+          {
+            "nom": "Oignons",
+            "quantite": "2 oignons",
+            "prix": "prix courant",
+            "en_special": false,
+            "imbattable_note": ""
+          },
+          {
+            "nom": "Ail",
+            "quantite": "1 tête",
+            "prix": "prix courant",
+            "en_special": false,
+            "imbattable_note": ""
+          },
+          {
+            "nom": "Gingembre frais",
+            "quantite": "100 g",
+            "prix": "prix courant",
+            "en_special": false,
+            "imbattable_note": ""
+          },
+          {
+            "nom": "Oignons verts",
+            "quantite": "1 botte",
+            "prix": "prix courant",
+            "en_special": false,
+            "imbattable_note": ""
+          },
+          {
+            "nom": "Petits pois surgelés",
+            "quantite": "300 g",
+            "prix": "prix courant",
+            "en_special": false,
+            "imbattable_note": ""
+          },
+          {
+            "nom": "Romarin frais",
+            "quantite": "1 brin",
+            "prix": "prix courant",
+            "en_special": false,
+            "imbattable_note": ""
+          }
+        ],
+        "Fruits": [
+          {
+            "nom": "Citrons",
+            "quantite": "3 citrons",
+            "prix": "prix courant",
+            "en_special": false,
+            "imbattable_note": ""
+          }
+        ],
+        "Épicerie sèche & conserves": [
+          {
+            "nom": "Riz basmati",
+            "quantite": "1 sac",
+            "prix": "prix courant",
+            "en_special": false,
+            "imbattable_note": ""
+          },
+          {
+            "nom": "Sauce tamari sans gluten",
+            "quantite": "1 bouteille",
+            "prix": "prix courant",
+            "en_special": false,
+            "imbattable_note": ""
+          },
+          {
+            "nom": "Sauce hoisin sans gluten (ex: Premier Japan)",
+            "quantite": "1 bouteille",
+            "prix": "prix courant",
+            "en_special": false,
+            "imbattable_note": ""
+          },
+          {
+            "nom": "Vinaigre de riz",
+            "quantite": "1 bouteille",
+            "prix": "prix courant",
+            "en_special": false,
+            "imbattable_note": ""
+          },
+          {
+            "nom": "Sirop d'érable",
+            "quantite": "1 bouteille",
+            "prix": "prix courant",
+            "en_special": false,
+            "imbattable_note": ""
+          },
+          {
+            "nom": "Moutarde de Dijon sans gluten",
+            "quantite": "1 pot",
+            "prix": "prix courant",
+            "en_special": false,
+            "imbattable_note": ""
+          },
+          {
+            "nom": "Ketchup sans gluten",
+            "quantite": "1 bouteille",
+            "prix": "prix courant",
+            "en_special": false,
+            "imbattable_note": ""
+          },
+          {
+            "nom": "Fécule de maïs",
+            "quantite": "petit paquet",
+            "prix": "prix courant",
+            "en_special": false,
+            "imbattable_note": ""
+          },
+          {
+            "nom": "Bouillon de poulet sans gluten",
+            "quantite": "1 carton",
+            "prix": "prix courant",
+            "en_special": false,
+            "imbattable_note": ""
+          }
+        ],
+        "Épices": [
+          {
+            "nom": "Sumac moulu",
+            "quantite": "si pas en stock",
+            "prix": "prix courant",
+            "en_special": false,
+            "imbattable_note": ""
+          },
+          {
+            "nom": "Flocons de chili",
+            "quantite": "si pas en stock",
+            "prix": "en stock",
+            "en_special": false,
+            "imbattable_note": ""
+          },
+          {
+            "nom": "Graines de sésame",
+            "quantite": "si pas en stock",
+            "prix": "prix courant",
+            "en_special": false,
+            "imbattable_note": ""
+          },
+          {
+            "nom": "Huile de sésame grillée",
+            "quantite": "si pas en stock",
+            "prix": "prix courant",
+            "en_special": false,
+            "imbattable_note": ""
+          },
+          {
+            "nom": "Sambal oelek",
+            "quantite": "si pas en stock",
+            "prix": "prix courant",
+            "en_special": false,
+            "imbattable_note": ""
+          }
+        ]
+      }
+    },
+    "MÉTRO": {
+      "categories": {
+        "Viandes": [
+          {
+            "nom": "Filets de porc surgelés",
+            "quantite": "~900 g (2 filets)",
+            "prix": "2,67 $/lb — solde Métro",
+            "en_special": true,
+            "imbattable_note": ""
+          },
+          {
+            "nom": "Bœuf haché maigre",
+            "quantite": "600 g (~1,35 lb)",
+            "prix": "4,44 $/lb — solde Métro",
+            "en_special": true,
+            "imbattable_note": ""
+          }
+        ]
+      }
+    }
+  }
+}

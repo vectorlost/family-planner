@@ -1,0 +1,444 @@
+================================================================================
+  FAMILYMEAL — Semaine du 5 avril 2026 (2026-W14)
+  Générée automatiquement le 2026-04-05
+  Mode : Automatique (N_REPAS=5, N_PORTIONS=4)
+================================================================================
+
+MÉTA-DONNÉES
+────────────
+Semaine        : 2026-04-05 au 2026-04-11 (Semaine de Pâques)
+Menus générés  : 5 / 5
+Portions/repas : 4 portions
+Contraintes    : Sans gluten • Sans lactose • Sans sucre raffiné
+Coût estimé    : 95–110 $ (MAXI ~85-95 $ + MÉTRO ~11-15 $)
+
+Circulaires consultées :
+  ✓ Maxi     (2–8 avril 2026)
+  ✓ Métro    (2–8 avril 2026)
+  ✓ Super C  (2–8 avril 2026, pour Imbattables Maxi uniquement)
+  ✓ IGA      (2–8 avril 2026, pour Imbattables Maxi uniquement)
+
+================================================================================
+  SECTION 1 — CIRCULAIRES DE LA SEMAINE
+================================================================================
+
+── MAXI (achat) ─────────────────────────────────────────────────────────────
+  Poitrines de poulet désossées         4,99 $/lb     [Volaille]
+  Crevettes (paquet 300 g)              5,88 $         [Fruits de mer]  ← UTILISÉ
+  Asperges du Mexique (325 g)           2,44 $         [Légume]         ← UTILISÉ
+  Choux de Bruxelles (454 g)            2,44 $         [Légume]         ← UTILISÉ
+  Raisins verts sans pépins             1,77 $/lb      [Fruit]
+  Ananas entier (membre PC Optimum)     1,00 $         [Fruit]
+  Longe de porc fraîche                 3,99 $/lb      [Porc]
+
+── MÉTRO (achat — viandes rouges et porc) ───────────────────────────────────
+  Filets de porc surgelés               2,67 $/lb      [Porc]           ← UTILISÉ
+  Bœuf haché maigre                     4,44 $/lb      [Bœuf]           ← UTILISÉ
+  Rôti de côtes de bœuf                 10,99 $/lb     [Bœuf]
+  Côtelettes d'agneau                   12,99 $/lb     [Agneau]
+  Quart de jambon fumé                  3,49 $/lb      [Porc]
+  Saumon Atlantique frais               9,99 $/lb      [Poisson]
+
+── SUPER C (référence Imbattables Maxi seulement — pas d'achat) ─────────────
+  Asperges                              3,99 $         [Légume]
+  Pommes de terre Russet (10 lb)        4,99 $         [Légume]
+  Raisins verts sans pépins             1,77 $/lb      [Fruit]
+  Dindon entier                         1,99 $/lb      [Volaille]
+  Côtelettes de porc                    2,44 $/lb      [Porc]
+  Gigot d'agneau frais                  6,99 $/lb      [Agneau]
+  Fromage Cracker Barrel                5,97 $         [Produits laitiers]
+  Jambon fumé désossé Sélection (1,4kg) 12,99 $        [Porc]
+
+── IGA (référence Imbattables Maxi seulement — pas d'achat) ─────────────────
+  Saumon Atlantique frais (membres)     8,99 $/lb      [Poisson]
+  Dindon entier                         1,99 $/lb      [Volaille]
+  Fromage P'tit Québec (400 g)          4,97 $         [Produits laitiers]
+  Sirop d'érable 540 ml (membres)       5,99 $         [Épicerie sèche]
+  Prosciutto (100 g)                    3,99 $         [Charcuterie]
+
+================================================================================
+  SECTION 2 — IMBATTABLES MAXI (semaine du 5 avril 2026)
+================================================================================
+
+✅ Asperges du Mexique (325 g)
+   Prix Maxi régulier : 2,44 $
+   Prix Super C spécial : 3,99 $
+   Économie en restant chez Maxi : 1,55 $
+   → Mentionner à la caisse Maxi : Super C 3,99 $
+
+~ Raisins verts sans pépins
+   Prix Maxi : 1,77 $/lb
+   Prix Super C spécial : 1,77 $/lb
+   → Prix identique — confirme la compétitivité de Maxi
+
+ℹ Crevettes (300 g)
+   Prix Maxi : 5,88 $/paquet
+   Prix concurrent : N/D cette semaine
+   → Prix compétitif estimé
+
+================================================================================
+  SECTION 3 — MENUS DE LA SEMAINE
+================================================================================
+
+────────────────────────────────────────────────────────────────────────────────
+LUNDI — 🍗 Hauts de cuisse de poulet braisés, sauce soya & sirop d'érable
+────────────────────────────────────────────────────────────────────────────────
+Source : Trois fois par jour
+URL    : https://www.troisfoisparjour.com/en/recipes/main-course/chicken-poultry/soy-sauce-maple-syrup-braised-chicken-thighs/
+Temps  : 40 min (10 min préparation + 30 min cuisson)
+Portions : 4
+Saveur : Asiatique-Québécois
+
+INGRÉDIENTS (4 portions) :
+  [MAXI] Hauts de cuisse de poulet désossés    12 morceaux (env. 1,2 kg)  4,99 $/lb ★ SOLDE
+  [MAXI] Choux de Bruxelles, coupés en deux    2 tasses (454 g)            2,44 $/454 g ★ SOLDE
+  [MAXI] Sauce tamari sans gluten              1/4 tasse (60 ml)           prix courant
+  [MAXI] Sirop d'érable                        2 c. à soupe (30 ml)        prix courant
+  [MAXI] Huile d'olive (substitut beurre)      1/4 tasse (60 ml)           en stock
+  [—]    Eau                                   3/4 tasse (180 ml)
+  [MAXI] Jus de citron                         d'un demi citron            prix courant
+  [MAXI] Flocons de chili                      1 c. à thé                  en stock
+
+PRÉPARATION :
+  1. Préchauffer le four à 400°F (200°C), grille au centre.
+  2. Dans un grand plat allant au four, combiner l'eau, l'huile d'olive, le tamari
+     sans gluten, le sirop d'érable, le jus de citron et les flocons de chili.
+  3. Ajouter les hauts de cuisse et les choux de Bruxelles coupés en deux. Bien
+     mélanger pour enrober.
+  4. Enfourner pendant 30 minutes, en retournant à mi-cuisson, jusqu'à ce que le
+     poulet soit bien doré et cuit à cœur (75°C interne).
+  5. Servir avec le jus de cuisson et du riz basmati.
+
+ASTUCE MEAL PREP (dimanche) :
+  Préparer le mélange de sauce la veille (tamari, érable, huile, eau, citron, chili).
+  Couper les choux de Bruxelles. Le soir J, assembler et enfourner — prêt en 30 min.
+
+NOTES CAROLINE :
+  ⚠ Sauce tamari certifiée sans gluten (ex: San-J) — pas de sauce soya ordinaire.
+  ✓ Substituer le beurre original par de l'huile d'olive pour 100% sans lactose.
+  ✓ Sirop d'érable = sucre naturel non raffiné, accepté.
+  ★ Choux de Bruxelles EN SOLDE chez Maxi (2,44 $ / 454 g).
+
+────────────────────────────────────────────────────────────────────────────────
+MARDI — 🐟 Tournedos de saumon au sumac et fenouil grillé
+────────────────────────────────────────────────────────────────────────────────
+Source : Ricardo Cuisine
+URL    : https://www.ricardocuisine.com/en/recipes/10408-salmon-tournedos-with-sumac-and-grilled-fennel
+Temps  : 38 min (30 min préparation + 8 min cuisson)
+Portions : 4 (adapté depuis 6 portions, ×2/3)
+Saveur : Méditerranéen-Maghrébin
+
+INGRÉDIENTS (4 portions) :
+  [MAXI] Filet de saumon sans peau, en 4 pièces  560 g total (~1,25 lb)  ~9,99 $/lb
+  [MAXI] Sumac moulu                              2 c. à soupe            prix courant
+  [MAXI] Brins de romarin frais                   4 brins                 prix courant
+  [MAXI] Bulbes de fenouil, en quartiers           2 bulbes               prix courant
+  [MAXI] Huile d'olive                            1/4 tasse (60 ml)       en stock
+  [MAXI] Tiges et feuilles de fenouil hachées     1/4 t. tiges + 3 c. feuilles  (du bulbe)
+  [MAXI] Jus de citron                            1 c. à soupe            prix courant
+  [—]    Sel et poivre                            au goût
+
+PRÉPARATION :
+  1. Préchauffer le barbecue ou le four gril à feu moyen-vif. Huiler la grille.
+  2. Verser le sumac dans une petite assiette. Papillonner chaque morceau de
+     saumon horizontalement, saler, poivrer, rouler en tournedo et piquer un brin
+     de romarin au centre. Enrober les côtés de sumac.
+  3. Enduire les quartiers de fenouil d'1 c. à soupe d'huile; saler et poivrer.
+  4. Mélanger tiges et feuilles de fenouil avec l'huile restante et le jus de
+     citron; assaisonner. Réserver comme vinaigrette.
+  5. Griller les tournedos de saumon sur un côté 8 à 10 minutes. Griller le
+     fenouil des deux côtés jusqu'à tendreté.
+  6. Dresser et napper du mélange fenouil-huile. Servir avec des quartiers de citron.
+
+ASTUCE MEAL PREP (dimanche) :
+  Rouler et réfrigérer les tournedos de saumon jusqu'à 4h avant cuisson.
+  Préparer la vinaigrette fenouil à l'avance. Garder au frais.
+
+NOTES CAROLINE :
+  ✓ Recette 100% sans gluten et sans lactose telle quelle — aucune substitution.
+  ✓ Le sumac est naturellement sans gluten.
+  ℹ Le fenouil peut sembler fort aux enfants — proposer le fenouil cuit seulement.
+
+────────────────────────────────────────────────────────────────────────────────
+MERCREDI — 🥩 Riz frit au bœuf & aux poivrons
+────────────────────────────────────────────────────────────────────────────────
+Source : Trois fois par jour
+URL    : https://www.troisfoisparjour.com/fr/recettes/plats-principaux/riz-grains/riz-frit-au-boeuf-aux-poivrons/
+Temps  : 30 min (10 min préparation + 15 min cuisson + 5 min repos riz)
+Portions : 4 (recette originale = 1 portion, multiplié ×4)
+Saveur : Asiatique
+
+INGRÉDIENTS (4 portions — ×4 la recette originale) :
+  [MÉTRO] Bœuf haché maigre            600 g (~1,35 lb)    4,44 $/lb ★ SOLDE
+  [MAXI]  Riz basmati                  2 tasses (500 ml)   prix courant
+  [—]     Eau                          3 tasses (750 ml)
+  [MAXI]  Poivrons rouges, en dés      4 poivrons           prix courant
+  [MAXI]  Gousses d'ail, hachées       4 gousses            prix courant
+  [MAXI]  Gingembre frais, haché       4 c. à thé           prix courant
+  [MAXI]  Petits pois verts surgelés   1 tasse (250 ml)     prix courant
+  [MAXI]  Sauce tamari sans gluten     8 c. à soupe (120ml) prix courant
+  [MAXI]  Sirop d'érable (≠ sucre)     1 c. à thé           en stock
+  [MAXI]  Vinaigre de riz              4 c. à thé           prix courant
+  [MAXI]  Huile végétale               4 c. à soupe         en stock
+  [—]     Sel et poivre                au goût
+
+PRÉPARATION :
+  1. Rincer le riz basmati à l'eau froide jusqu'à eau claire. Combiner avec 3 tasses
+     d'eau dans une casserole, couvrir, porter à ébullition, réduire à feu doux
+     12 minutes. Laisser reposer 5 minutes couvert.
+  2. Chauffer l'huile dans une grande poêle ou wok à feu moyen. Cuire le bœuf haché
+     avec les poivrons, l'ail et le gingembre environ 8 minutes en remuant.
+  3. Ajouter le riz cuit, les petits pois, le tamari, le sirop d'érable et le vinaigre
+     de riz. Bien mélanger et cuire 2 à 3 minutes.
+  4. Rectifier l'assaisonnement. Servir chaud.
+
+ASTUCE MEAL PREP (dimanche) :
+  Cuire le riz la veille — le riz froid donne une meilleure texture pour le riz sauté.
+  Hacher les poivrons, ail et gingembre à l'avance.
+
+NOTES CAROLINE :
+  ⚠ Tamari certifié sans gluten obligatoire.
+  ✓ Recette originale contient du sucre blanc → remplacé par sirop d'érable.
+  ✓ Recette naturellement sans lactose.
+  ★ Bœuf haché EN SOLDE chez Métro (4,44 $/lb).
+
+────────────────────────────────────────────────────────────────────────────────
+JEUDI — 🥩 Filet mignon de porc à l'érable
+────────────────────────────────────────────────────────────────────────────────
+Source : Ricardo Cuisine
+URL    : https://www.ricardocuisine.com/en/recipes/6152-maple-pork-tenderloin
+Temps  : 25 min (15 min préparation + 10 min cuisson)
+Portions : 4 (recette originale = 2-3 portions, doublée)
+Saveur : Québécois
+
+INGRÉDIENTS (4 portions) :
+  [MÉTRO] Filets de porc surgelés décongelés  2 filets (~900 g, ~2 lb)  2,67 $/lb ★ SOLDE
+  [MAXI]  Bouillon de poulet sans gluten       1 tasse (250 ml)           prix courant
+  [MAXI]  Sirop d'érable                       1/4 tasse (60 ml)          prix courant
+  [MAXI]  Moutarde de Dijon (sans gluten)      2 c. à thé                 prix courant
+  [MAXI]  Ketchup (sans gluten, sans sucre)    2 c. à thé                 en stock
+  [MAXI]  Fécule de maïs                       2 c. à thé                 en stock
+  [MAXI]  Huile d'olive (substitut beurre)     2 c. à soupe               en stock
+  [MAXI]  Oignons, finement tranchés           2 petits oignons            prix courant
+  [MAXI]  Asperges du Mexique (accompagnement) 1 paquet (325 g)           2,44 $ ★ SOLDE
+
+PRÉPARATION :
+  1. Dans un bol, mélanger le bouillon de poulet, le sirop d'érable, la moutarde,
+     le ketchup et la fécule de maïs. Réserver.
+  2. Couper chaque filet de porc en médaillons de 1,5 cm d'épaisseur.
+  3. Chauffer l'huile d'olive dans une grande poêle à feu moyen-vif. Faire revenir
+     les médaillons de porc en lots 2-3 min par côté jusqu'à belle dorure. Saler,
+     poivrer. Réserver.
+  4. Dans la même poêle à feu moyen, faire revenir les oignons 2 minutes en remuant.
+     Verser le mélange de bouillon et remettre le porc. Laisser mijoter 2 minutes.
+  5. Pendant ce temps, cuire les asperges à la vapeur ou dans une poêle huilée,
+     4-5 minutes jusqu'à al dente.
+  6. Servir les médaillons nappés de sauce érable avec les asperges et du riz.
+
+ASTUCE MEAL PREP (dimanche) :
+  Décongeler les filets de porc vendredi/samedi au réfrigérateur. Préparer le mélange
+  de sauce à l'avance. Trancher les médaillons au moment de cuire.
+
+NOTES CAROLINE :
+  ✓ Substituer le beurre original de Ricardo par 2 c. à soupe d'huile d'olive.
+  ✓ Sirop d'érable = sucre naturel non raffiné.
+  ⚠ Vérifier ketchup et moutarde : choisir des marques naturelles sans sucre ajouté.
+  ★ Filets de porc EN SOLDE chez Métro (2,67 $/lb surgelé — excellent prix!).
+  ★ Asperges EN SOLDE chez Maxi (2,44 $/325 g).
+
+────────────────────────────────────────────────────────────────────────────────
+VENDREDI — 🦐 Sauté de crevettes au sésame
+────────────────────────────────────────────────────────────────────────────────
+Source : Ricardo Cuisine
+URL    : https://www.ricardocuisine.com/en/recipes/3108-sesame-shrimp-stir-fry
+Temps  : 25 min (15 min préparation + 10 min cuisson)
+Portions : 4
+Saveur : Asiatique
+
+INGRÉDIENTS (4 portions) :
+  [MAXI] Crevettes décortiquées (20-30 count)  675 g (3 × 300 g)     5,88 $/paquet ★ SOLDE
+  [MAXI] Sauce hoisin sans gluten (Premier Japan) 1/4 tasse (60 ml)  prix courant
+  [MAXI] Vinaigre de riz                         2 c. à soupe (30ml) prix courant
+  [MAXI] Sauce tamari sans gluten                 2 c. à soupe (30ml) prix courant
+  [MAXI] Pois mange-tout (snow peas), en biais   2 tasses (500 ml)   prix courant
+  [MAXI] Oignons verts (blancs et verts séparés) 6 oignons verts     prix courant
+  [MAXI] Graines de sésame                       2 c. à soupe        prix courant
+  [MAXI] Gingembre frais, haché                  1 c. à soupe        prix courant
+  [MAXI] Gousses d'ail, hachées                  2 gousses           prix courant
+  [MAXI] Sambal oelek (pâte de chili)            1/4 c. à thé        en stock
+  [MAXI] Huile de sésame grillée                 2 c. à soupe        en stock
+  [MAXI] Huile végétale                          1/4 tasse (60 ml)   en stock
+
+PRÉPARATION :
+  1. Mélanger la sauce hoisin sans gluten, le vinaigre de riz et le tamari dans
+     un bol. Réserver.
+  2. Assécher les crevettes avec du papier absorbant.
+  3. Chauffer la moitié de l'huile végétale dans un wok à feu vif. Sauter la moitié
+     des crevettes 2 minutes jusqu'à changement de couleur. Saler et réserver.
+     Répéter avec l'huile et les crevettes restantes.
+  4. Dans le même wok à feu moyen-vif, sauter les pois mange-tout, les blancs
+     d'oignons verts, les graines de sésame, le gingembre et l'ail dans l'huile de
+     sésame, 3 à 4 minutes.
+  5. Remettre les crevettes, ajouter la sauce réservée et sauter 1 à 2 minutes.
+     Garnir des verts d'oignons.
+  6. Servir immédiatement sur du riz basmati cuit.
+
+ASTUCE MEAL PREP (dimanche) :
+  Préparer la sauce la veille (hoisin + tamari + vinaigre). Décortiquer et conserver
+  les crevettes au froid. Le soir J, cuisson express 10-12 min!
+
+NOTES CAROLINE :
+  ⚠ CRITIQUE: Sauce hoisin CERTIFIÉE sans gluten (la plupart contiennent du blé).
+    Alternative maison: 3 c. à soupe tamari + 1 c. à thé sirop d'érable +
+    1 c. à thé huile de sésame.
+  ⚠ Tamari certifié sans gluten obligatoire.
+  ✓ Recette naturellement sans lactose et sans sucre raffiné.
+  ★ Crevettes EN SOLDE chez Maxi (5,88 $/300g — acheter 3 paquets = 900 g).
+
+================================================================================
+  SECTION 4 — LISTE D'ÉPICERIE CONSOLIDÉE
+================================================================================
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  MAXI — Épicerie principale                                                  ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+🐔 VIANDES & PROTÉINES
+  ★ Hauts de cuisse de poulet désossés       ~1,4 kg (3 lb)     4,99 $/lb
+  ✓ Filet de saumon frais sans peau          ~560 g (1,25 lb)   ~9,99 $/lb
+    [ℹ IGA membres: 8,99 $/lb — mais achat chez Maxi selon la règle]
+  ★ Crevettes décortiquées (300 g)           3 paquets          5,88 $/paquet
+
+🥦 LÉGUMES
+  ★ Choux de Bruxelles (454 g)               1 paquet           2,44 $
+  ★ Asperges du Mexique (325 g)              1 paquet           2,44 $
+    → Mentionner à la caisse Maxi : Super C 3,99 $ (Imbattable Maxi !)
+  ✓ Bulbes de fenouil                        2 bulbes           prix courant
+  ✓ Poivrons rouges                          4 poivrons         prix courant
+  ✓ Pois mange-tout (snow peas)              ~300 g             prix courant
+  ✓ Oignons                                  2 oignons          prix courant
+  ✓ Ail                                      1 tête             prix courant
+  ✓ Gingembre frais                          ~100 g             prix courant
+  ✓ Oignons verts                            1 botte            prix courant
+  ✓ Petits pois surgelés                     300 g              prix courant
+  ✓ Romarin frais                            1 brin             prix courant
+
+🍋 FRUITS
+  ✓ Citrons                                  3 citrons          prix courant
+
+🫙 ÉPICERIE SÈCHE & CONSERVES (vérifier les stocks à la maison)
+  ✓ Riz basmati                              1 sac (2 kg)       prix courant
+  ✓ Sauce tamari sans gluten                 1 bouteille        prix courant
+  ✓ Sauce hoisin sans gluten (Premier Japan) 1 bouteille        prix courant
+  ✓ Vinaigre de riz                          1 bouteille        prix courant
+  ✓ Sirop d'érable                           1 bouteille        prix courant
+  ✓ Moutarde de Dijon sans gluten            1 pot              prix courant
+  ✓ Ketchup sans gluten                      1 bouteille        prix courant
+  ✓ Fécule de maïs                           petit paquet       prix courant
+  ✓ Bouillon de poulet sans gluten           1 carton           prix courant
+
+🌿 ÉPICES (vérifier les stocks à la maison)
+  ✓ Sumac moulu                              si pas en stock    prix courant
+  ✓ Flocons de chili                         si pas en stock    en stock
+  ✓ Graines de sésame                        si pas en stock    prix courant
+  ✓ Huile de sésame grillée                  si pas en stock    prix courant
+  ✓ Sambal oelek                             si pas en stock    prix courant
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  MÉTRO — Viandes rouges et porc seulement                                    ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+🥩 VIANDES (en solde cette semaine!)
+  ★ Filets de porc surgelés                  ~900 g (2 filets)  2,67 $/lb SOLDE
+  ★ Bœuf haché maigre                        600 g (~1,35 lb)   4,44 $/lb SOLDE
+
+(★ = en solde cette semaine | ✓ = prix courant)
+
+================================================================================
+  SECTION 5 — RÉCAPITULATIF FINANCIER
+================================================================================
+
+MAXI — Sous-total estimé :
+  Poulet (3 lb × 4,99 $/lb)              ~  15,00 $
+  Saumon (1,25 lb × 9,99 $/lb)           ~  12,49 $
+  Crevettes (3 × 5,88 $)                   17,64 $
+  Choux de Bruxelles                         2,44 $
+  Asperges                                   2,44 $
+  Fenouil (2 bulbes)                     ~   4,00 $
+  Poivrons (4 pièces)                    ~   5,00 $
+  Pois mange-tout                         ~   4,00 $
+  Légumes divers (oignons, ail, gingembre, etc.) ~  6,00 $
+  Citrons (3)                             ~   2,25 $
+  Épicerie sèche (si à renouveler)        ~  25-30 $
+                               SOUS-TOTAL MAXI : ~96–100 $
+
+MÉTRO — Sous-total estimé :
+  Filets de porc (2 lb × 2,67 $/lb)      ~   5,34 $
+  Bœuf haché (1,35 lb × 4,44 $/lb)       ~   5,99 $
+                              SOUS-TOTAL MÉTRO : ~11–12 $
+
+  ▶ COÛT TOTAL ESTIMÉ : 95–110 $ (dépend des articles en stock à la maison)
+
+================================================================================
+  SECTION 6 — NOTES GÉNÉRALES POUR CAROLINE
+================================================================================
+
+Contraintes respectées : Sans gluten ✓ | Sans lactose ✓ | Sans sucre raffiné ✓
+
+Points d'attention globaux cette semaine :
+
+1. TAMARI vs SAUCE SOYA : Utiliser UNIQUEMENT sauce tamari certifiée sans gluten
+   (ex: marque San-J) dans TOUTES les recettes. La sauce soya ordinaire contient
+   du gluten.
+
+2. SAUCE HOISIN (recette crevettes) : CRITIQUE. La plupart des sauces hoisin du
+   marché contiennent du blé/gluten. Chercher la marque Premier Japan (disponible
+   chez Maxi ou magasins d'aliments naturels). Alternative maison sans gluten :
+   3 c. à soupe tamari + 1 c. à thé sirop d'érable + 1 c. à thé huile de sésame.
+
+3. BEURRE dans les recettes Ricardo : Les recettes Filet de porc à l'érable ET
+   Poulet braisé (Trois fois par jour) utilisent du beurre dans l'original.
+   → Substituer par HUILE D'OLIVE dans les deux cas pour version 100% sans lactose.
+
+4. SUCRE RAFFINÉ : La recette de riz frit bœuf (3×/jour) contient du sucre blanc.
+   → Remplacé par sirop d'érable dans ce plan. OK pour Caroline.
+
+5. MOUTARDE ET KETCHUP : Vérifier les étiquettes. Choisir des versions naturelles
+   sans sucre ajouté (ex: Grey Poupon pour la moutarde, Heinz Organic pour le ketchup).
+
+6. FENOUIL (recette saumon) : Saveur anisée prononcée. Peut être intense pour les
+   enfants — proposer le fenouil cuit seulement, en petite quantité au départ.
+
+================================================================================
+  CONFIRMATION FINALE
+================================================================================
+
+✅ FAMILYMEAL — Semaine du 5 avril 2026 (2026-W14)
+Circulaires consultées : Maxi ✓  Métro ✓  Super C ✓  IGA ✓
+Épiceries d'achat : MAXI (tout sauf viande rouge) + MÉTRO (viandes rouges/porc)
+Menus générés : 5/5
+Portions par repas : 4
+Imbattables Maxi : 3 (asperges confirmé, raisins verts prix égal, crevettes N/D)
+
+MENUS :
+🍗 Lundi   — Hauts de cuisse de poulet braisés, sauce soya & sirop d'érable (40 min) — Trois fois par jour
+             https://www.troisfoisparjour.com/en/recipes/main-course/chicken-poultry/soy-sauce-maple-syrup-braised-chicken-thighs/
+🐟 Mardi   — Tournedos de saumon au sumac et fenouil grillé (38 min) — Ricardo Cuisine
+             https://www.ricardocuisine.com/en/recipes/10408-salmon-tournedos-with-sumac-and-grilled-fennel
+🥩 Mercredi — Riz frit au bœuf & aux poivrons (30 min) — Trois fois par jour
+             https://www.troisfoisparjour.com/fr/recettes/plats-principaux/riz-grains/riz-frit-au-boeuf-aux-poivrons/
+🥩 Jeudi   — Filet mignon de porc à l'érable (25 min) — Ricardo Cuisine
+             https://www.ricardocuisine.com/en/recipes/6152-maple-pork-tenderloin
+🦐 Vendredi — Sauté de crevettes au sésame (25 min) — Ricardo Cuisine
+             https://www.ricardocuisine.com/en/recipes/3108-sesame-shrimp-stir-fry
+
+INGRÉDIENTS AVANTAGEUX UTILISÉS (Imbattables Maxi) :
+✅ Asperges du Mexique 325g — 2,44 $ chez Maxi (vs Super C 3,99 $ en promo)
+✅ Choux de Bruxelles 454g — 2,44 $ chez Maxi (en solde)
+✅ Crevettes 300g — 5,88 $ chez Maxi (en solde)
+✅ Filets de porc — 2,67 $/lb surgelé chez Métro (en solde — excellent prix)
+✅ Bœuf haché — 4,44 $/lb chez Métro (en solde)
+
+================================================================================
+  FIN DU DOCUMENT — familymeal_2026-04-05.txt
+================================================================================

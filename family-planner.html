@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🥗 Family Planner</title>
+<style>
+  :root {
+    --green: #2d7a4f;
+    --green-light: #e8f5ee;
+    --green-mid: #4caf7d;
+    --orange: #f57c00;
+    --orange-light: #fff3e0;
+    --gold: #f9a825;
+    --gold-light: #fffde7;
+    --red: #e53935;
+    --gray: #f5f5f5;
+    --gray-mid: #e0e0e0;
+    --text: #212121;
+    --text-light: #757575;
+    --card-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    --radius: 14px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #f0f4f1;
+    color: var(--text);
+    min-height: 100vh;
+  }
+
+  header {
+    background: linear-gradient(135deg, var(--green) 0%, #1b5e35 100%);
+    color: white;
+    padding: 28px 24px 22px;
+    text-align: center;
+  }
+  header h1 { font-size: 1.9rem; font-weight: 700; letter-spacing: -0.5px; }
+  header .subtitle { font-size: 0.95rem; opacity: 0.85; margin-top: 4px; }
+  .stats-bar {
+    display: flex; justify-content: center; gap: 20px;
+    margin-top: 18px; flex-wrap: wrap;
+  }
+  .stat {
+    background: rgba(255,255,255,0.18);
+    border-radius: 20px;
+    padding: 6px 16px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    display: flex; align-items: center; gap: 6px;
+  }
+
+  .tabs {
+    display: flex;
+    background: white;
+    border-bottom: 2px solid var(--gray-mid);
+    position: sticky; top: 0; z-index: 10;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.07);
+  }
+  .tab-btn {
+    flex: 1; padding: 14px 8px;
+    border: none; background: none;
+    font-size: 0.88rem; font-weight: 600;
+    color: var(--text-light);
+    cursor: pointer; transition: all 0.2s;
+    border-bottom: 3px solid transparent;
+    margin-bottom: -2px;
+  }
+  .tab-btn.active { color: var(--green); border-bottom-color: var(--green); }
+  .tab-btn:hover { background: var(--gray); }
+
+  main { max-width: 900px; margin: 0 auto; padding: 20px 16px 60px; }
+  .tab-content { display: none; }
+  .tab-content.active { display: block; }
+
+  .section-title {
+    font-size: 1rem; font-weight: 700;
+    color: var(--green);
+    margin: 24px 0 12px;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .section-title::after {
+    content: ''; flex: 1; height: 1px; background: var(--gray-mid);
+  }
+
+  .menus-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+  }
+  .menu-card {
+    background: white; border-radius: var(--radius);
+    box-shadow: var(--card-shadow); overflow: hidden;
+    transition: transform 0.15s;
+  }
+  .menu-card:hover { transform: translateY(-2px); }
+  .menu-card-header {
+    padding: 14px 16px 12px;
+    display: flex; align-items: center; gap: 10px;
+  }
+  .day-chip {
+    background: var(--green-light); color: var(--green);
+    font-size: 0.78rem; font-weight: 700;
+    padding: 3px 10px; border-radius: 20px; white-space: nowrap;
+  }
+  .protein-emoji { font-size: 1.6rem; }
+  .menu-card-body { padding: 0 16px 16px; }
+  .recipe-title {
+    font-weight: 600; font-size: 0.97rem; line-height: 1.35;
+    color: var(--text); margin-bottom: 8px;
+  }
+  .recipe-title a { color: inherit; text-decoration: none; }
+  .recipe-title a:hover { color: var(--green); text-decoration: underline; }
+  .recipe-meta {
+    display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px;
+  }
+  .meta-tag {
+    font-size: 0.75rem; font-weight: 600;
+    padding: 3px 9px; border-radius: 12px;
+    background: var(--gray); color: var(--text-light);
+  }
+  .meta-tag.time { background: #e3f2fd; color: #1565c0; }
+  .meta-tag.portions { background: var(--green-light); color: var(--green); }
+  .store-row { font-size: 0.8rem; color: var(--text-light); margin-top: 6px; display: flex; flex-direction: column; gap: 3px; }
+  .store-item { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+  .store-badge {
+    font-size: 0.7rem; font-weight: 700;
+    padding: 2px 7px; border-radius: 10px; white-space: nowrap;
+  }
+  .store-badge.maxi { background: #fce4ec; color: #c62828; }
+  .store-badge.metro { background: #e3f2fd; color: #1565c0; }
+  .store-badge.superc { background: #e8f5e9; color: #2e7d32; }
+  .store-badge.iga { background: #fff3e0; color: #e65100; }
+  .imbattable-tag {
+    font-size: 0.7rem; font-weight: 700;
+    padding: 2px 8px; border-radius: 10px;
+    background: var(--gold-light); color: #b8860b;
+    border: 1px solid #f9a825;
+  }
+
+  .store-tabs {
+    display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px;
+  }
+  .store-tab {
+    padding: 8px 16px; border-radius: 20px;
+    border: 2px solid var(--gray-mid);
+    background: white; font-size: 0.82rem; font-weight: 600;
+    cursor: pointer; transition: all 0.15s; color: var(--text-light);
+  }
+  .store-tab.active-store { border-color: var(--green); color: var(--green); background: var(--green-light); }
+
+  .store-section { display: none; }
+  .store-section.active-store { display: block; }
+
+  .grocery-progress {
+    background: white; border-radius: var(--radius);
+    padding: 14px 16px; margin-bottom: 16px;
+    box-shadow: var(--card-shadow);
+    display: flex; align-items: center; gap: 14px;
+  }
+  .progress-bar-wrap {
+    flex: 1; background: var(--gray-mid); border-radius: 10px; height: 8px;
+  }
+  .progress-bar-fill {
+    height: 100%; border-radius: 10px;
+    background: linear-gradient(90deg, var(--green), var(--green-mid));
+    transition: width 0.4s ease;
+  }
+  .progress-text { font-size: 0.82rem; font-weight: 600; color: var(--text-light); white-space: nowrap; }
+
+  .category-label {
+    font-size: 0.72rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.8px; color: var(--text-light); margin: 16px 0 8px;
+  }
+  .grocery-list { display: flex; flex-direction: column; gap: 6px; }
+  .grocery-item {
+    background: white; border-radius: 10px;
+    padding: 12px 14px; box-shadow: var(--card-shadow);
+    display: flex; align-items: center; gap: 12px;
+    transition: opacity 0.2s; cursor: pointer;
+    border: 2px solid transparent;
+  }
+  .grocery-item.imbattable { border-color: var(--gold); background: var(--gold-light); }
+  .grocery-item.checked { opacity: 0.45; text-decoration: line-through; }
+  .checkbox {
+    width: 22px; height: 22px; border-radius: 6px;
+    border: 2px solid var(--gray-mid);
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0; transition: all 0.15s; background: white;
+  }
+  .grocery-item.checked .checkbox { background: var(--green); border-color: var(--green); color: white; }
+  .checkbox svg { display: none; }
+  .grocery-item.checked .checkbox svg { display: block; }
+  .item-info { flex: 1; }
+  .item-name { font-size: 0.9rem; font-weight: 600; }
+  .item-qty { font-size: 0.78rem; color: var(--text-light); margin-top: 2px; }
+  .item-right { text-align: right; flex-shrink: 0; }
+  .item-price { font-size: 0.88rem; font-weight: 700; color: var(--green); }
+  .item-imbattable-hint { font-size: 0.68rem; color: #b8860b; font-weight: 600; margin-top: 2px; }
+
+  .copy-btn {
+    display: flex; align-items: center; gap: 8px;
+    margin-top: 20px; padding: 12px 20px;
+    border-radius: 10px; border: none;
+    background: var(--green); color: white;
+    font-size: 0.88rem; font-weight: 600;
+    cursor: pointer; transition: background 0.2s;
+  }
+  .copy-btn:hover { background: #1b5e35; }
+
+  .summary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 14px; margin-bottom: 24px;
+  }
+  .summary-card {
+    background: white; border-radius: var(--radius);
+    padding: 18px; box-shadow: var(--card-shadow); text-align: center;
+  }
+  .summary-card .big-num { font-size: 2rem; font-weight: 800; color: var(--green); }
+  .summary-card .big-label { font-size: 0.78rem; color: var(--text-light); margin-top: 4px; }
+  .summary-card.gold .big-num { color: #b8860b; }
+
+  .stores-summary { display: flex; flex-direction: column; gap: 10px; }
+  .store-summary-row {
+    background: white; border-radius: 10px;
+    padding: 14px 16px; box-shadow: var(--card-shadow);
+    display: flex; align-items: center; gap: 12px;
+  }
+  .store-logo-initial {
+    width: 40px; height: 40px; border-radius: 10px;
+    font-size: 1rem; font-weight: 800;
+    display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+  }
+  .store-summary-info { flex: 1; }
+  .store-summary-name { font-weight: 700; font-size: 0.92rem; }
+  .store-summary-items { font-size: 0.78rem; color: var(--text-light); margin-top: 2px; }
+
+  @media (max-width: 600px) {
+    header h1 { font-size: 1.5rem; }
+    .menus-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<script>
+// ╔══════════════════════════════════════════════════════╗
+// ║  DONNÉES — Remplacer ce bloc chaque semaine          ║
+// ╚══════════════════════════════════════════════════════╝
+const DATA = {
+  semaine: "15 mars 2026",
+  portions: 6,
+  coutEstime: "60–70 $",
+
+  menus: [
+    {
+      jour: "Lundi", emoji: "🐟",
+      titre: "Saumon minute aux poireaux et poivrons",
+      url: "https://www.kpourkatrine.com/fr/recettes/saumon-minute-aux-poireaux-poivrons/",
+      site: "K pour Katrine", temps: 35,
+      ingredients: [
+        { store: "metro", storeLabel: "Métro", produit: "Saumon", prix: "8,99 $/lb", note: "-50%" },
+        { store: "superc", storeLabel: "Super C", produit: "Poivron rouge", prix: "3,99 $/lb", note: "" }
+      ]
+    },
+    {
+      jour: "Mardi", emoji: "🍗",
+      titre: "Hauts de cuisse de poulet sautés au paprika, brocoli et pommes de terre",
+      url: null, site: "Recette suggérée", temps: 25,
+      ingredients: [
+        { store: "maxi", storeLabel: "Maxi", produit: "Hauts de cuisse de poulet", prix: "4,99 $/lb", note: "" },
+        { store: "maxi", storeLabel: "Maxi", produit: "Brocoli", prix: "1,77 $", note: "" },
+        { store: "maxi", storeLabel: "Maxi", produit: "Pommes de terre", prix: "2 $/10 lb", note: "" }
+      ]
+    },
+    {
+      jour: "Jeudi", emoji: "🥩",
+      titre: "Filets de porc grillés aux poivrons et courgettes",
+      url: "https://www.ricardocuisine.com/en/recipes/5931-grilled-pork-tenderloin-with-fennel-and-bell-peppers",
+      site: "Ricardo Cuisine", temps: 35,
+      ingredients: [
+        { store: "superc", storeLabel: "Super C", produit: "Filets de porc", prix: "3,77 $/lb", note: "-35%", imbattable: true }
+      ]
+    },
+    {
+      jour: "Vendredi", emoji: "🥬",
+      titre: "Sauté de pois chiches, patates douces et épinards au lait de coco",
+      url: null, site: "Recette suggérée", temps: 25,
+      ingredients: [
+        { store: "maxi", storeLabel: "Maxi", produit: "Pois chiches Unico", prix: "1,33 $", note: "", imbattable: true },
+        { store: "superc", storeLabel: "Super C", produit: "Patates douces", prix: "0,99 $/lb", note: "" }
+      ]
+    }
+  ],
+
+  epicerie: {
+    "Maxi": {
+      color: "#c62828", bg: "#fce4ec",
+      categories: {
+        "Viandes & protéines": [
+          { nom: "Hauts de cuisse de poulet", qty: "1,5 kg", prix: "4,99 $/lb", imbattable: false, hint: "" },
+          { nom: "Pois chiches Unico (conserve)", qty: "2 boîtes", prix: "1,33 $/boîte", imbattable: true, hint: "Mentionner à la caisse Maxi : Super C 0,99 $" }
+        ],
+        "Légumes": [
+          { nom: "Brocoli", qty: "1 tête", prix: "1,77 $", imbattable: false, hint: "" },
+          { nom: "Pommes de terre", qty: "10 lb", prix: "2,00 $", imbattable: false, hint: "" },
+          { nom: "Épinards (sac)", qty: "1 sac 142 g", prix: "3,49 $", imbattable: false, hint: "" }
+        ],
+        "Épicerie sèche": [
+          { nom: "Lait de coco (conserve)", qty: "2 boîtes 400 ml", prix: "2,29 $/boîte", imbattable: false, hint: "" },
+          { nom: "Paprika fumé", qty: "1 pot", prix: "en stock", imbattable: false, hint: "" }
+        ]
+      }
+    },
+    "Métro": {
+      color: "#1565c0", bg: "#e3f2fd",
+      categories: {
+        "Poissons & fruits de mer": [
+          { nom: "Filet de saumon Atlantique", qty: "900 g (6 portions)", prix: "8,99 $/lb", imbattable: false, hint: "Solde -50%" }
+        ],
+        "Légumes": [
+          { nom: "Poireaux", qty: "2 branches", prix: "2,49 $", imbattable: false, hint: "" }
+        ]
+      }
+    },
+    "Super C": {
+      color: "#2e7d32", bg: "#e8f5e9",
+      categories: {
+        "Viandes & protéines": [
+          { nom: "Filets de porc", qty: "700 g (6 portions)", prix: "3,77 $/lb", imbattable: true, hint: "Mentionner à la caisse Maxi : Super C 3,77 $/lb" }
+        ],
+        "Légumes": [
+          { nom: "Poivrons rouges", qty: "3 poivrons", prix: "3,99 $/lb", imbattable: false, hint: "" },
+          { nom: "Courgettes", qty: "2 moyennes", prix: "1,99 $/lb", imbattable: false, hint: "" },
+          { nom: "Patates douces", qty: "1 kg", prix: "0,99 $/lb", imbattable: false, hint: "" }
+        ]
+      }
+    }
+  }
+};
+// ╚══════════════════════════════════════════════════════╝
+</script>
+
+<header>
+  <h1>🥗 Family Planner</h1>
+  <div class="subtitle" id="header-subtitle"></div>
+  <div class="stats-bar" id="stats-bar"></div>
+</header>
+
+<div class="tabs">
+  <button class="tab-btn active" onclick="showTab('menus', this)">🍽️ Menus</button>
+  <button class="tab-btn" onclick="showTab('epicerie', this)">🛒 Épicerie</button>
+  <button class="tab-btn" onclick="showTab('resume', this)">📊 Résumé</button>
+</div>
+
+<main>
+  <div id="tab-menus" class="tab-content active">
+    <div class="section-title">Soupers de la semaine</div>
+    <div class="menus-grid" id="menus-grid"></div>
+  </div>
+
+  <div id="tab-epicerie" class="tab-content">
+    <div class="grocery-progress">
+      <div class="progress-bar-wrap">
+        <div class="progress-bar-fill" id="progress-fill" style="width:0%"></div>
+      </div>
+      <div class="progress-text" id="progress-text">0 / 0 items</div>
+    </div>
+    <div class="store-tabs" id="store-tabs"></div>
+    <div id="store-sections"></div>
+    <button class="copy-btn" onclick="copyList()">📋 Copier la liste d'épicerie</button>
+  </div>
+
+  <div id="tab-resume" class="tab-content">
+    <div class="section-title">Cette semaine en chiffres</div>
+    <div class="summary-grid" id="summary-grid"></div>
+    <div class="section-title">Par magasin</div>
+    <div class="stores-summary" id="stores-summary"></div>
+  </div>
+</main>
+
+<script>
+function showTab(name, btn) {
+  document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+  document.getElementById('tab-' + name).classList.add('active');
+  btn.classList.add('active');
+}
+
+function showStore(sid) {
+  document.querySelectorAll('.store-section').forEach(el => el.classList.remove('active-store'));
+  document.querySelectorAll('.store-tab').forEach(el => el.classList.remove('active-store'));
+  document.getElementById('section-' + sid).classList.add('active-store');
+  document.getElementById('stab-' + sid).classList.add('active-store');
+}
+
+let totalItems = 0;
+
+function toggleItem(el) {
+  el.classList.toggle('checked');
+  const checked = document.querySelectorAll('.grocery-item.checked').length;
+  const pct = totalItems === 0 ? 0 : Math.round((checked / totalItems) * 100);
+  document.getElementById('progress-fill').style.width = pct + '%';
+  document.getElementById('progress-text').textContent = checked + ' / ' + totalItems + ' items';
+}
+
+function copyList() {
+  let lines = ['🛒 LISTE D\'ÉPICERIE — Semaine du ' + DATA.semaine, ''];
+  for (const [store, data] of Object.entries(DATA.epicerie)) {
+    lines.push('── ' + store.toUpperCase() + ' ──');
+    for (const [cat, items] of Object.entries(data.categories)) {
+      lines.push('  ' + cat + ':');
+      items.forEach(item => {
+        let line = '  • ' + item.nom + ' — ' + item.qty + ' (' + item.prix + ')';
+        if (item.imbattable) line += ' ⭐ Imbattable Maxi';
+        if (item.hint) line += ' [' + item.hint + ']';
+        lines.push(line);
+      });
+    }
+    lines.push('');
+  }
+  navigator.clipboard.writeText(lines.join('\n')).then(() => {
+    const btn = document.querySelector('.copy-btn');
+    btn.textContent = '✅ Copié !';
+    setTimeout(() => { btn.innerHTML = '📋 Copier la liste d\'épicerie'; }, 2000);
+  });
+}
+
+// Render header
+const imbattableCount = DATA.menus.reduce((n, m) => n + (m.ingredients || []).filter(i => i.imbattable).length, 0);
+document.getElementById('header-subtitle').textContent = 'Semaine du ' + DATA.semaine;
+document.getElementById('stats-bar').innerHTML = `
+  <div class="stat">🍽️ ${DATA.menus.length} soupers</div>
+  <div class="stat">👨‍👩‍👧 ${DATA.portions} portions</div>
+  <div class="stat">⭐ ${imbattableCount} Imbattables Maxi</div>
+  <div class="stat">💰 ~${DATA.coutEstime}</div>
+`;
+
+// Render menus
+const grid = document.getElementById('menus-grid');
+DATA.menus.forEach(menu => {
+  const titleHtml = menu.url
+    ? `<a href="${menu.url}" target="_blank" rel="noopener">${menu.titre}</a>`
+    : menu.titre;
+  const ingHtml = (menu.ingredients || []).map(i => `
+    <div class="store-item">
+      <span class="store-badge ${i.store}">${i.storeLabel}</span>
+      <span>${i.produit}</span>
+      <strong>${i.prix}</strong>
+      ${i.note ? `<em style="color:var(--orange);font-size:0.75rem">${i.note}</em>` : ''}
+      ${i.imbattable ? `<span class="imbattable-tag">⭐ Imbattable</span>` : ''}
+    </div>`).join('');
+  grid.innerHTML += `
+    <div class="menu-card">
+      <div class="menu-card-header">
+        <div class="protein-emoji">${menu.emoji}</div>
+        <div><div class="day-chip">${menu.jour}</div></div>
+      </div>
+      <div class="menu-card-body">
+        <div class="recipe-title">${titleHtml}</div>
+        <div class="recipe-meta">
+          <span class="meta-tag time">⏱ ${menu.temps} min</span>
+          <span class="meta-tag portions">🍽 ${DATA.portions} portions</span>
+          <span class="meta-tag">${menu.site}</span>
+        </div>
+        <div class="store-row">${ingHtml}</div>
+      </div>
+    </div>`;
+});
+
+// Render épicerie
+const storeTabs = document.getElementById('store-tabs');
+const storeSections = document.getElementById('store-sections');
+let firstStore = true;
+const storeCountMap = {};
+
+for (const [storeName, storeData] of Object.entries(DATA.epicerie)) {
+  const sid = storeName.replace(/\s+/g,'_');
+  let n = 0;
+  for (const items of Object.values(storeData.categories)) n += items.length;
+  storeCountMap[storeName] = n;
+
+  storeTabs.innerHTML += `<button class="store-tab ${firstStore ? 'active-store' : ''}" id="stab-${sid}" onclick="showStore('${sid}')">${storeName}</button>`;
+
+  let catHtml = '';
+  for (const [cat, items] of Object.entries(storeData.categories)) {
+    catHtml += `<div class="category-label">${cat}</div><div class="grocery-list">`;
+    items.forEach(item => {
+      totalItems++;
+      catHtml += `
+        <div class="grocery-item ${item.imbattable ? 'imbattable' : ''}" onclick="toggleItem(this)">
+          <div class="checkbox">
+            <svg width="12" height="10" viewBox="0 0 12 10" fill="none">
+              <path d="M1 5l3.5 3.5L11 1" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="item-info">
+            <div class="item-name">${item.nom}</div>
+            <div class="item-qty">${item.qty}${item.hint ? ' · ' + item.hint : ''}</div>
+          </div>
+          <div class="item-right">
+            <div class="item-price">${item.prix}</div>
+            ${item.imbattable ? `<div class="item-imbattable-hint">⭐ Imbattable</div>` : ''}
+          </div>
+        </div>`;
+    });
+    catHtml += '</div>';
+  }
+  storeSections.innerHTML += `<div class="store-section ${firstStore ? 'active-store' : ''}" id="section-${sid}">${catHtml}</div>`;
+  firstStore = false;
+}
+document.getElementById('progress-text').textContent = '0 / ' + totalItems + ' items';
+
+// Render résumé
+const totalCount = Object.values(storeCountMap).reduce((a, b) => a + b, 0);
+document.getElementById('summary-grid').innerHTML = `
+  <div class="summary-card"><div class="big-num">${DATA.menus.length}</div><div class="big-label">Soupers planifiés</div></div>
+  <div class="summary-card"><div class="big-num">${DATA.portions}</div><div class="big-label">Portions par repas</div></div>
+  <div class="summary-card gold"><div class="big-num">${imbattableCount}</div><div class="big-label">Imbattables Maxi ⭐</div></div>
+  <div class="summary-card"><div class="big-num">${totalCount}</div><div class="big-label">Items à acheter</div></div>
+  <div class="summary-card"><div class="big-num">${DATA.coutEstime}</div><div class="big-label">Coût estimé total</div></div>
+`;
+
+const storesSum = document.getElementById('stores-summary');
+for (const [storeName, storeData] of Object.entries(DATA.epicerie)) {
+  const itemCount = storeCountMap[storeName];
+  const allItems = Object.values(storeData.categories).flat();
+  const imbCount = allItems.filter(i => i.imbattable).length;
+  storesSum.innerHTML += `
+    <div class="store-summary-row">
+      <div class="store-logo-initial" style="background:${storeData.bg};color:${storeData.color}">${storeName[0]}</div>
+      <div class="store-summary-info">
+        <div class="store-summary-name">${storeName}</div>
+        <div class="store-summary-items">${itemCount} item${itemCount > 1 ? 's' : ''}${imbCount ? ' · ⭐ ' + imbCount + ' Imbattable' + (imbCount > 1 ? 's' : '') : ''}</div>
+      </div>
+    </div>`;
+}
+</script>
+</body>
+</html>

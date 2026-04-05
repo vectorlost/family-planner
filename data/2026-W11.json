@@ -1,0 +1,259 @@
+{
+  "semaine": "2026-03-15",
+  "semaine_label": "15 mars 2026",
+  "semaine_id": "2026-W11",
+  "n_repas": 4,
+  "n_portions": 6,
+  "cout_estime": "60–70 $",
+  "contraintes": ["Sans gluten", "Sans lactose", "Sans sucre raffiné"],
+  "notes_caroline": "Tous les 4 menus respectent sans gluten, sans lactose et sans sucre raffiné. Points d'attention : mayonnaise (menus 1 et 3) vérifier certification sans gluten (ex: Hellmann's Réel). Pâte de curry (menu 4) : certaines marques contiennent du blé — recommander Patak's Original Curry Paste. Vinaigre de cidre (menu 1) : naturellement sans gluten.",
+  "raisonnement": "Cette semaine, le saumon atlantique à Métro (-50%) et les hauts de cuisse de poulet à Maxi étaient les meilleures protéines soldées. Les filets de porc à Super C (3,77$/lb) et les patates douces à Super C (0,99$/lb) constituent les Imbattables Maxi les plus intéressants. La variété de saveurs couvre méditerranéen (saumon), épicé/sauté (poulet), grillé (porc), indien (pois chiches) pour équilibrer la semaine.",
+
+  "menus": [
+    {
+      "jour": "Lundi",
+      "emoji": "🐟",
+      "titre": "Saumon minute aux poireaux et poivron",
+      "url": "https://www.kpourkatrine.com/fr/recettes/saumon-minute-aux-poireaux-poivrons/",
+      "site": "K pour Katrine",
+      "proteine": "Poisson",
+      "saveur": "Méditerranéen",
+      "temps": 35,
+      "portions": 6,
+      "statut": "Confirmé",
+      "ingredients": [
+        {"nom": "Filets de saumon atlantique", "quantite": "6 filets (~680 g)", "magasin": "MAXI", "prix": "8,99 $/lb — solde Métro", "en_special": true},
+        {"nom": "Poireaux émincés", "quantite": "375 g (1 sac)", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Poivron rouge", "quantite": "1,5 poivron, en lanières", "magasin": "MAXI", "prix": "3,99 $/lb — solde Super C", "en_special": true},
+        {"nom": "Huile végétale", "quantite": "3 c. à soupe", "magasin": "MAXI", "prix": "en stock", "en_special": false},
+        {"nom": "Ail", "quantite": "1,5 gousse, hachée", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Thym séché", "quantite": "3 c. à thé", "magasin": "MAXI", "prix": "en stock", "en_special": false},
+        {"nom": "Zeste d'orange", "quantite": "1,5 c. à thé (facultatif)", "magasin": "MAXI", "prix": "en stock", "en_special": false},
+        {"nom": "Vinaigre de cidre ou balsamique", "quantite": "3 c. à soupe", "magasin": "MAXI", "prix": "en stock", "en_special": false},
+        {"nom": "Patates douces", "quantite": "6 moyennes, en bâtonnets", "magasin": "MAXI", "prix": "0,99 $/lb — Imbattable Maxi Super C", "en_special": true},
+        {"nom": "Paprika fumé", "quantite": "1,5 c. à thé", "magasin": "MAXI", "prix": "en stock", "en_special": false}
+      ],
+      "preparation": [
+        "Préchauffer le four à 425°F. Tapisser 2 plaques de papier parchemin.",
+        "Sur une plaque, disposer les patates douces avec huile, paprika, sel et poivre. Enfourner 20–25 min en retournant à mi-cuisson.",
+        "Saisir les poireaux dans l'huile 5 min. Ajouter ail, thym et zeste d'orange ; cuire 1 min de plus.",
+        "Sur l'autre plaque, déposer les filets de saumon. Répartir le mélange de poireaux par-dessus. Disposer les lanières de poivron autour. Arroser de vinaigre.",
+        "Cuire le saumon 12 min au four jusqu'à ce qu'il se défasse à la fourchette. Servir avec les patates douces rôties."
+      ],
+      "astuce_meal_prep": "Couper les patates douces et les poireaux à l'avance. Conserver au réfrigérateur jusqu'au lundi soir.",
+      "notes_caroline": "Vinaigre de cidre ou balsamique : naturellement sans gluten. Ce plat est idéal tel quel pour toute la famille."
+    },
+    {
+      "jour": "Mardi",
+      "emoji": "🍗",
+      "titre": "Hauts de cuisse de poulet sautés au paprika, brocoli et pommes de terre",
+      "url": null,
+      "site": "Recette maison",
+      "proteine": "Volaille",
+      "saveur": "Épicé",
+      "temps": 25,
+      "portions": 6,
+      "statut": "Confirmé",
+      "ingredients": [
+        {"nom": "Hauts de cuisse de poulet désossés, en cubes", "quantite": "900 g (2 lb)", "magasin": "MAXI", "prix": "4,99 $/lb — solde Maxi", "en_special": true},
+        {"nom": "Pommes de terre Russet, en dés de 1 cm", "quantite": "450 g (1 lb)", "magasin": "MAXI", "prix": "2 $/10 lb — solde Maxi", "en_special": true},
+        {"nom": "Couronnes de brocoli, en petits bouquets", "quantite": "2 couronnes", "magasin": "MAXI", "prix": "1,77 $ — solde Maxi", "en_special": true},
+        {"nom": "Tomates en dés (conserve)", "quantite": "1 boîte 398 ml", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Ail", "quantite": "3 gousses, hachées", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Huile d'olive", "quantite": "3 c. à soupe", "magasin": "MAXI", "prix": "en stock", "en_special": false},
+        {"nom": "Paprika fumé", "quantite": "2 c. à thé", "magasin": "MAXI", "prix": "en stock", "en_special": false},
+        {"nom": "Cumin moulu", "quantite": "1 c. à thé", "magasin": "MAXI", "prix": "en stock", "en_special": false},
+        {"nom": "Coriandre moulue", "quantite": "1 c. à thé", "magasin": "MAXI", "prix": "en stock", "en_special": false}
+      ],
+      "preparation": [
+        "Couper le poulet en cubes. Précuire les pommes de terre en dés au micro-ondes avec un peu d'eau, couverts, 5 min.",
+        "Chauffer l'huile dans une grande poêle à feu vif. Faire sauter l'ail et les épices 30 secondes.",
+        "Ajouter le poulet ; saisir 5–6 min jusqu'à dorure.",
+        "Ajouter les pommes de terre précuites et le brocoli. Mélanger pour enrober d'épices et cuire 3–4 min.",
+        "Verser les tomates en dés, couvrir et laisser mijoter 5 min jusqu'à ce que le brocoli soit tendre. Garnir de persil et servir."
+      ],
+      "astuce_meal_prep": "Couper le poulet et les légumes la veille. Les tomates en dés peuvent être remplacées par du bouillon de poulet.",
+      "notes_caroline": "Pour les enfants, réduire le cumin et le paprika de moitié dans leur portion."
+    },
+    {
+      "jour": "Jeudi",
+      "emoji": "🥩",
+      "titre": "Filets de porc grillés aux poivrons et courgettes",
+      "url": "https://www.ricardocuisine.com/en/recipes/5931-grilled-pork-tenderloin-with-fennel-and-bell-peppers",
+      "site": "Ricardo Cuisine",
+      "proteine": "Viande rouge",
+      "saveur": "Méditerranéen",
+      "temps": 35,
+      "portions": 6,
+      "statut": "Confirmé",
+      "ingredients": [
+        {"nom": "Filets de porc, parés", "quantite": "3 filets (~680 g chacun)", "magasin": "MÉTRO", "prix": "3,77 $/lb — Imbattable Maxi Super C", "en_special": true},
+        {"nom": "Poivrons rouges, en larges lanières", "quantite": "4–5 poivrons", "magasin": "MAXI", "prix": "3,99 $/lb — solde Super C", "en_special": true},
+        {"nom": "Courgettes, en tranches de 1/2 po", "quantite": "4 courgettes", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Mayonnaise sans gluten", "quantite": "3/4 tasse (185 ml)", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Citron (zeste + jus)", "quantite": "3/4 citron", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Graines de fenouil moulues", "quantite": "1,5 c. à thé", "magasin": "MAXI", "prix": "en stock", "en_special": false},
+        {"nom": "Flocons de piment fort", "quantite": "3/4 c. à thé", "magasin": "MAXI", "prix": "en stock", "en_special": false},
+        {"nom": "Olives vertes dénoyautées, hachées", "quantite": "12 olives", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Huile d'olive", "quantite": "4,5 c. à soupe", "magasin": "MAXI", "prix": "en stock", "en_special": false}
+      ],
+      "preparation": [
+        "Mélanger la mayo, le zeste et le jus de citron dans un bol. Réserver.",
+        "Assaisonner les filets avec graines de fenouil, piment fort, sel et poivre.",
+        "Chauffer le barbecue (ou une poêle-gril) à feu élevé. Réduire à feu moyen-doux. Griller le porc 12–15 min en tournant régulièrement. Laisser reposer 5 min avant de trancher.",
+        "Pendant ce temps, badigeonner poivrons et courgettes d'huile, sel et poivre. Griller 4–5 min par côté.",
+        "Disposer les légumes sur une grande assiette. Parsemer d'olives. Déposer le porc tranché par-dessus. Garnir de ciboulette. Servir avec la mayo."
+      ],
+      "astuce_meal_prep": "Les légumes peuvent être grillés à l'avance et réchauffés. La sauce mayo se conserve 3 jours au réfrigérateur.",
+      "notes_caroline": "Mayonnaise : vérifier que la marque est certifiée sans gluten (ex: Hellmann's Réel est sans gluten)."
+    },
+    {
+      "jour": "Vendredi",
+      "emoji": "🥬",
+      "titre": "Sauté de pois chiches aux patates douces et épinards au lait de coco",
+      "url": null,
+      "site": "Recette maison",
+      "proteine": "Légumineuses",
+      "saveur": "Indien",
+      "temps": 25,
+      "portions": 6,
+      "statut": "Confirmé",
+      "ingredients": [
+        {"nom": "Pois chiches (conserve), rincés et égouttés", "quantite": "2 boîtes (398 ml)", "magasin": "MAXI", "prix": "1,33 $/boîte — solde Maxi", "en_special": true},
+        {"nom": "Patates douces, pelées, en dés de 1 cm", "quantite": "450 g (1 lb)", "magasin": "MAXI", "prix": "0,99 $/lb — Imbattable Maxi Super C", "en_special": true},
+        {"nom": "Lait de coco (conserve)", "quantite": "1 boîte (400 ml)", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Tomates en dés (conserve)", "quantite": "1 boîte (398 ml)", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Oignon rouge, haché", "quantite": "1 gros", "magasin": "MAXI", "prix": "0,99 $/lb — solde Super C", "en_special": true},
+        {"nom": "Ail", "quantite": "3 gousses, hachées", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Gingembre frais râpé", "quantite": "1 c. à soupe", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Pâte de curry sans gluten", "quantite": "1,5 c. à soupe", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Épinards frais ou bébés épinards", "quantite": "4 tasses (90 g)", "magasin": "MAXI", "prix": "prix courant", "en_special": false},
+        {"nom": "Riz jasmin ou basmati", "quantite": "pour 6 portions", "magasin": "MAXI", "prix": "en stock", "en_special": false}
+      ],
+      "preparation": [
+        "Cuire les dés de patates douces au micro-ondes avec un peu d'eau, couverts, 5–6 min jusqu'à presque tendres.",
+        "Dans une grande poêle, chauffer l'huile à feu moyen. Faire revenir l'oignon 5 min. Ajouter l'ail et le gingembre ; cuire 1 min.",
+        "Incorporer la pâte de curry et le curcuma ; mélanger 30 secondes.",
+        "Ajouter les pois chiches, les tomates en dés, le lait de coco et les patates douces précuites. Mijoter 8–10 min.",
+        "Incorporer les épinards et le jus de citron. Cuire 2 min jusqu'à ce que les épinards soient tombés. Servir avec du riz."
+      ],
+      "astuce_meal_prep": "Ce plat se réchauffe très bien et est idéal pour les lunchs. Préparer le riz à l'avance le dimanche.",
+      "notes_caroline": "Pâte de curry : certaines marques contiennent du blé. Recommander Patak's Original Curry Paste (étiquette sans gluten)."
+    }
+  ],
+
+  "circulaires": {
+    "Maxi": [
+      {"produit": "Hauts de cuisse de poulet désossés", "prix_promo": "4,99 $/lb", "prix_regulier": "", "economie_pct": "~20%", "categorie": "Volaille"},
+      {"produit": "Couronne de brocoli", "prix_promo": "1,77 $", "prix_regulier": "", "economie_pct": "~30%", "categorie": "Légume"},
+      {"produit": "Pommes de terre Russet (10 lb)", "prix_promo": "2,00 $", "prix_regulier": "", "economie_pct": "~55%", "categorie": "Légume"},
+      {"produit": "Légumineuses Unico (boîte)", "prix_promo": "1,33 $", "prix_regulier": "", "economie_pct": "~30%", "categorie": "Épicerie sèche"},
+      {"produit": "Fraises", "prix_promo": "1,88 $", "prix_regulier": "", "economie_pct": "~35%", "categorie": "Fruit"},
+      {"produit": "Mûres", "prix_promo": "1,44 $", "prix_regulier": "", "economie_pct": "~40%", "categorie": "Fruit"}
+    ],
+    "Métro": [
+      {"produit": "Filet de saumon atlantique", "prix_promo": "8,99 $/lb", "prix_regulier": "", "economie_pct": "~50%", "categorie": "Poisson"}
+    ],
+    "Super C": [
+      {"produit": "Filets de porc", "prix_promo": "3,77 $/lb", "prix_regulier": "", "economie_pct": "~35%", "categorie": "Porc"},
+      {"produit": "Poivrons doux", "prix_promo": "3,99 $/lb", "prix_regulier": "", "economie_pct": "~30%", "categorie": "Légume"},
+      {"produit": "Patates douces", "prix_promo": "0,99 $/lb", "prix_regulier": "", "economie_pct": "~40%", "categorie": "Légume"},
+      {"produit": "Oignons rouges jumbos", "prix_promo": "0,99 $/lb", "prix_regulier": "", "economie_pct": "~35%", "categorie": "Légume"}
+    ],
+    "IGA": [
+      {"produit": "Côtes levées de porc frais", "prix_promo": "3,99 $/lb", "prix_regulier": "", "economie_pct": "~25%", "categorie": "Porc"}
+    ]
+  },
+
+  "imbattables_maxi": [
+    {
+      "produit": "Filets de porc",
+      "prix_maxi": "2,99 $/lb (côtelettes — coupe différente)",
+      "prix_concurrent": "3,77 $/lb",
+      "epicerie_concurrent": "Super C",
+      "note": "Coupes différentes, vérifier équivalence à la caisse"
+    },
+    {
+      "produit": "Patates douces",
+      "prix_maxi": "prix courant (pas en solde)",
+      "prix_concurrent": "0,99 $/lb",
+      "epicerie_concurrent": "Super C",
+      "note": "Maxi n'a pas de patates douces en solde cette semaine"
+    },
+    {
+      "produit": "Saumon atlantique",
+      "prix_maxi": "Truite steelhead 10 $/kg (~4,54 $/lb) — poisson différent",
+      "prix_concurrent": "8,99 $/lb",
+      "epicerie_concurrent": "Métro",
+      "note": "Poissons différents — achat à Métro recommandé pour cette recette"
+    }
+  ],
+
+  "epicerie": {
+    "MAXI": {
+      "categories": {
+        "Viandes & protéines": [
+          {"nom": "Hauts de cuisse de poulet désossés", "quantite": "900 g", "prix": "4,99 $/lb", "en_special": true, "imbattable_note": ""}
+        ],
+        "Légumes": [
+          {"nom": "Patates douces", "quantite": "1,5 kg (~3 lb)", "prix": "0,99 $/lb", "en_special": true, "imbattable_note": "Imbattable Maxi — Super C 0,99 $/lb"},
+          {"nom": "Poivrons rouges", "quantite": "5–6 pièces", "prix": "3,99 $/lb", "en_special": true, "imbattable_note": "Prix Super C"},
+          {"nom": "Couronnes de brocoli", "quantite": "2 couronnes", "prix": "1,77 $/pièce", "en_special": true, "imbattable_note": ""},
+          {"nom": "Courgettes", "quantite": "4 pièces", "prix": "prix courant", "en_special": false, "imbattable_note": ""},
+          {"nom": "Poireaux émincés", "quantite": "375 g (1 sac)", "prix": "prix courant", "en_special": false, "imbattable_note": ""},
+          {"nom": "Oignon rouge", "quantite": "1 gros", "prix": "0,99 $/lb", "en_special": true, "imbattable_note": "Prix Super C"},
+          {"nom": "Pommes de terre Russet", "quantite": "1 sac (10 lb)", "prix": "2,00 $", "en_special": true, "imbattable_note": ""},
+          {"nom": "Épinards bébés", "quantite": "1 sac 120 g", "prix": "prix courant", "en_special": false, "imbattable_note": ""},
+          {"nom": "Ail", "quantite": "1 tête", "prix": "prix courant", "en_special": false, "imbattable_note": ""},
+          {"nom": "Gingembre frais", "quantite": "1 morceau (~100 g)", "prix": "prix courant", "en_special": false, "imbattable_note": ""}
+        ],
+        "Fruits": [
+          {"nom": "Citrons", "quantite": "3 pièces", "prix": "prix courant", "en_special": false, "imbattable_note": ""}
+        ],
+        "Épicerie sèche & conserves": [
+          {"nom": "Pois chiches Unico (boîte)", "quantite": "2 boîtes 398 ml", "prix": "1,33 $/boîte", "en_special": true, "imbattable_note": ""},
+          {"nom": "Tomates en dés (boîte)", "quantite": "2 boîtes 398 ml", "prix": "prix courant", "en_special": false, "imbattable_note": ""},
+          {"nom": "Lait de coco (boîte)", "quantite": "1 boîte 400 ml", "prix": "prix courant", "en_special": false, "imbattable_note": ""},
+          {"nom": "Pâte de curry sans gluten", "quantite": "1 bocal", "prix": "prix courant", "en_special": false, "imbattable_note": "Vérifier sans gluten"},
+          {"nom": "Mayonnaise sans gluten", "quantite": "1 pot", "prix": "prix courant", "en_special": false, "imbattable_note": "Vérifier sans gluten"},
+          {"nom": "Olives vertes dénoyautées", "quantite": "1 pot", "prix": "prix courant", "en_special": false, "imbattable_note": ""},
+          {"nom": "Riz jasmin ou basmati", "quantite": "1 sac", "prix": "prix courant", "en_special": false, "imbattable_note": ""}
+        ]
+      }
+    },
+    "MÉTRO": {
+      "categories": {
+        "Poissons & fruits de mer": [
+          {"nom": "Filet de saumon atlantique", "quantite": "6 filets (~1,5 lb)", "prix": "8,99 $/lb", "en_special": true, "imbattable_note": "Solde -50%"}
+        ],
+        "Viandes": [
+          {"nom": "Filets de porc", "quantite": "900 g (~2 lb)", "prix": "3,77 $/lb", "en_special": true, "imbattable_note": "Imbattable Maxi — Super C 3,77 $/lb"}
+        ]
+      }
+    }
+  },
+
+  "epicerie_flat": [
+    {"produit": "Filet de saumon atlantique", "quantite": "6 filets", "unite": "filets", "prix": "8,99 $/lb", "categorie": "Poissons & fruits de mer", "epicerie": "MÉTRO", "imbattable_maxi": ""},
+    {"produit": "Hauts de cuisse de poulet désossés", "quantite": "900 g", "unite": "g", "prix": "4,99 $/lb", "categorie": "Viandes & protéines", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Filets de porc", "quantite": "900 g", "unite": "g", "prix": "3,77 $/lb", "categorie": "Viandes & protéines", "epicerie": "MÉTRO", "imbattable_maxi": "Mentionner à la caisse : Super C 3,77 $/lb"},
+    {"produit": "Patates douces", "quantite": "1.5 kg", "unite": "kg", "prix": "0,99 $/lb", "categorie": "Légumes", "epicerie": "MAXI", "imbattable_maxi": "Mentionner à la caisse : Super C 0,99 $/lb"},
+    {"produit": "Poivrons rouges", "quantite": "5-6 pièces", "unite": "pièces", "prix": "3,99 $/lb", "categorie": "Légumes", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Couronnes de brocoli", "quantite": "2 couronnes", "unite": "couronnes", "prix": "1,77 $", "categorie": "Légumes", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Courgettes", "quantite": "4 pièces", "unite": "pièces", "prix": "prix courant", "categorie": "Légumes", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Poireaux émincés", "quantite": "375 g", "unite": "g", "prix": "prix courant", "categorie": "Légumes", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Pommes de terre Russet", "quantite": "1 sac 10 lb", "unite": "sac", "prix": "2,00 $", "categorie": "Légumes", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Oignon rouge", "quantite": "1 gros", "unite": "pièce", "prix": "0,99 $/lb", "categorie": "Légumes", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Épinards bébés", "quantite": "120 g", "unite": "g", "prix": "prix courant", "categorie": "Légumes", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Ail", "quantite": "1 tête", "unite": "tête", "prix": "prix courant", "categorie": "Légumes", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Gingembre frais", "quantite": "100 g", "unite": "g", "prix": "prix courant", "categorie": "Légumes", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Citrons", "quantite": "3 pièces", "unite": "pièces", "prix": "prix courant", "categorie": "Fruits", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Pois chiches Unico", "quantite": "2 boîtes 398 ml", "unite": "boîtes", "prix": "1,33 $", "categorie": "Épicerie sèche & conserves", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Tomates en dés", "quantite": "2 boîtes 398 ml", "unite": "boîtes", "prix": "prix courant", "categorie": "Épicerie sèche & conserves", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Lait de coco", "quantite": "1 boîte 400 ml", "unite": "boîte", "prix": "prix courant", "categorie": "Épicerie sèche & conserves", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Pâte de curry sans gluten", "quantite": "1 bocal", "unite": "bocal", "prix": "prix courant", "categorie": "Épicerie sèche & conserves", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Mayonnaise sans gluten", "quantite": "1 pot", "unite": "pot", "prix": "prix courant", "categorie": "Épicerie sèche & conserves", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Olives vertes dénoyautées", "quantite": "1 pot", "unite": "pot", "prix": "prix courant", "categorie": "Épicerie sèche & conserves", "epicerie": "MAXI", "imbattable_maxi": ""},
+    {"produit": "Riz jasmin ou basmati", "quantite": "1 sac", "unite": "sac", "prix": "prix courant", "categorie": "Épicerie sèche & conserves", "epicerie": "MAXI", "imbattable_maxi": ""}
+  ]
+}
