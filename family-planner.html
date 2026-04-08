@@ -21,16 +21,16 @@
     --card-shadow: 0 2px 8px rgba(0,0,0,0.10);
     --radius: 14px;
   }
-
+ 
   * { box-sizing: border-box; margin: 0; padding: 0; }
-
+ 
   body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     background: #f0f4f1;
     color: var(--text);
     min-height: 100vh;
   }
-
+ 
   header {
     background: linear-gradient(135deg, var(--green) 0%, #1b5e35 100%);
     color: white;
@@ -51,12 +51,32 @@
     font-weight: 600;
     display: flex; align-items: center; gap: 6px;
   }
-
-  .tabs {
+ 
+  .week-selector {
     display: flex;
     background: white;
     border-bottom: 2px solid var(--gray-mid);
     position: sticky; top: 0; z-index: 10;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.07);
+    justify-content: center;
+    padding: 12px;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .week-btn {
+    padding: 8px 16px; border-radius: 20px;
+    border: 2px solid var(--gray-mid);
+    background: white; font-size: 0.82rem; font-weight: 600;
+    cursor: pointer; transition: all 0.15s; color: var(--text-light);
+  }
+  .week-btn.active { border-color: var(--green); color: var(--green); background: var(--green-light); }
+  .week-btn:hover { border-color: var(--green); }
+ 
+  .tabs {
+    display: flex;
+    background: white;
+    border-bottom: 2px solid var(--gray-mid);
+    position: sticky; top: 52px; z-index: 9;
     box-shadow: 0 2px 6px rgba(0,0,0,0.07);
   }
   .tab-btn {
@@ -70,11 +90,11 @@
   }
   .tab-btn.active { color: var(--green); border-bottom-color: var(--green); }
   .tab-btn:hover { background: var(--gray); }
-
+ 
   main { max-width: 900px; margin: 0 auto; padding: 20px 16px 60px; }
   .tab-content { display: none; }
   .tab-content.active { display: block; }
-
+ 
   .section-title {
     font-size: 1rem; font-weight: 700;
     color: var(--green);
@@ -84,7 +104,7 @@
   .section-title::after {
     content: ''; flex: 1; height: 1px; background: var(--gray-mid);
   }
-
+ 
   .menus-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -129,17 +149,17 @@
     font-size: 0.7rem; font-weight: 700;
     padding: 2px 7px; border-radius: 10px; white-space: nowrap;
   }
-  .store-badge.maxi { background: #fce4ec; color: #c62828; }
-  .store-badge.metro { background: #e3f2fd; color: #1565c0; }
-  .store-badge.superc { background: #e8f5e9; color: #2e7d32; }
-  .store-badge.iga { background: #fff3e0; color: #e65100; }
+  .store-badge.MAXI { background: #fce4ec; color: #c62828; }
+  .store-badge.METRO { background: #e3f2fd; color: #1565c0; }
+  .store-badge.SUPERC { background: #e8f5e9; color: #2e7d32; }
+  .store-badge.IGA { background: #fff3e0; color: #e65100; }
   .imbattable-tag {
     font-size: 0.7rem; font-weight: 700;
     padding: 2px 8px; border-radius: 10px;
     background: var(--gold-light); color: #b8860b;
     border: 1px solid #f9a825;
   }
-
+ 
   .store-tabs {
     display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px;
   }
@@ -150,10 +170,10 @@
     cursor: pointer; transition: all 0.15s; color: var(--text-light);
   }
   .store-tab.active-store { border-color: var(--green); color: var(--green); background: var(--green-light); }
-
+ 
   .store-section { display: none; }
   .store-section.active-store { display: block; }
-
+ 
   .grocery-progress {
     background: white; border-radius: var(--radius);
     padding: 14px 16px; margin-bottom: 16px;
@@ -169,7 +189,7 @@
     transition: width 0.4s ease;
   }
   .progress-text { font-size: 0.82rem; font-weight: 600; color: var(--text-light); white-space: nowrap; }
-
+ 
   .category-label {
     font-size: 0.72rem; font-weight: 700; text-transform: uppercase;
     letter-spacing: 0.8px; color: var(--text-light); margin: 16px 0 8px;
@@ -199,7 +219,7 @@
   .item-right { text-align: right; flex-shrink: 0; }
   .item-price { font-size: 0.88rem; font-weight: 700; color: var(--green); }
   .item-imbattable-hint { font-size: 0.68rem; color: #b8860b; font-weight: 600; margin-top: 2px; }
-
+ 
   .copy-btn {
     display: flex; align-items: center; gap: 8px;
     margin-top: 20px; padding: 12px 20px;
@@ -209,7 +229,7 @@
     cursor: pointer; transition: background 0.2s;
   }
   .copy-btn:hover { background: #1b5e35; }
-
+ 
   .summary-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -222,7 +242,7 @@
   .summary-card .big-num { font-size: 2rem; font-weight: 800; color: var(--green); }
   .summary-card .big-label { font-size: 0.78rem; color: var(--text-light); margin-top: 4px; }
   .summary-card.gold .big-num { color: #b8860b; }
-
+ 
   .stores-summary { display: flex; flex-direction: column; gap: 10px; }
   .store-summary-row {
     background: white; border-radius: 10px;
@@ -237,131 +257,39 @@
   .store-summary-info { flex: 1; }
   .store-summary-name { font-weight: 700; font-size: 0.92rem; }
   .store-summary-items { font-size: 0.78rem; color: var(--text-light); margin-top: 2px; }
-
+ 
+  .loading { text-align: center; padding: 40px; color: var(--text-light); }
+ 
   @media (max-width: 600px) {
     header h1 { font-size: 1.5rem; }
     .menus-grid { grid-template-columns: 1fr; }
+    .week-selector { flex-direction: column; align-items: stretch; }
+    .week-btn { width: 100%; }
   }
 </style>
 </head>
 <body>
-
-<script>
-// ╔══════════════════════════════════════════════════════╗
-// ║  DONNÉES — Remplacer ce bloc chaque semaine          ║
-// ╚══════════════════════════════════════════════════════╝
-const DATA = {
-  semaine: "15 mars 2026",
-  portions: 6,
-  coutEstime: "60–70 $",
-
-  menus: [
-    {
-      jour: "Lundi", emoji: "🐟",
-      titre: "Saumon minute aux poireaux et poivrons",
-      url: "https://www.kpourkatrine.com/fr/recettes/saumon-minute-aux-poireaux-poivrons/",
-      site: "K pour Katrine", temps: 35,
-      ingredients: [
-        { store: "metro", storeLabel: "Métro", produit: "Saumon", prix: "8,99 $/lb", note: "-50%" },
-        { store: "superc", storeLabel: "Super C", produit: "Poivron rouge", prix: "3,99 $/lb", note: "" }
-      ]
-    },
-    {
-      jour: "Mardi", emoji: "🍗",
-      titre: "Hauts de cuisse de poulet sautés au paprika, brocoli et pommes de terre",
-      url: null, site: "Recette suggérée", temps: 25,
-      ingredients: [
-        { store: "maxi", storeLabel: "Maxi", produit: "Hauts de cuisse de poulet", prix: "4,99 $/lb", note: "" },
-        { store: "maxi", storeLabel: "Maxi", produit: "Brocoli", prix: "1,77 $", note: "" },
-        { store: "maxi", storeLabel: "Maxi", produit: "Pommes de terre", prix: "2 $/10 lb", note: "" }
-      ]
-    },
-    {
-      jour: "Jeudi", emoji: "🥩",
-      titre: "Filets de porc grillés aux poivrons et courgettes",
-      url: "https://www.ricardocuisine.com/en/recipes/5931-grilled-pork-tenderloin-with-fennel-and-bell-peppers",
-      site: "Ricardo Cuisine", temps: 35,
-      ingredients: [
-        { store: "superc", storeLabel: "Super C", produit: "Filets de porc", prix: "3,77 $/lb", note: "-35%", imbattable: true }
-      ]
-    },
-    {
-      jour: "Vendredi", emoji: "🥬",
-      titre: "Sauté de pois chiches, patates douces et épinards au lait de coco",
-      url: null, site: "Recette suggérée", temps: 25,
-      ingredients: [
-        { store: "maxi", storeLabel: "Maxi", produit: "Pois chiches Unico", prix: "1,33 $", note: "", imbattable: true },
-        { store: "superc", storeLabel: "Super C", produit: "Patates douces", prix: "0,99 $/lb", note: "" }
-      ]
-    }
-  ],
-
-  epicerie: {
-    "Maxi": {
-      color: "#c62828", bg: "#fce4ec",
-      categories: {
-        "Viandes & protéines": [
-          { nom: "Hauts de cuisse de poulet", qty: "1,5 kg", prix: "4,99 $/lb", imbattable: false, hint: "" },
-          { nom: "Pois chiches Unico (conserve)", qty: "2 boîtes", prix: "1,33 $/boîte", imbattable: true, hint: "Mentionner à la caisse Maxi : Super C 0,99 $" }
-        ],
-        "Légumes": [
-          { nom: "Brocoli", qty: "1 tête", prix: "1,77 $", imbattable: false, hint: "" },
-          { nom: "Pommes de terre", qty: "10 lb", prix: "2,00 $", imbattable: false, hint: "" },
-          { nom: "Épinards (sac)", qty: "1 sac 142 g", prix: "3,49 $", imbattable: false, hint: "" }
-        ],
-        "Épicerie sèche": [
-          { nom: "Lait de coco (conserve)", qty: "2 boîtes 400 ml", prix: "2,29 $/boîte", imbattable: false, hint: "" },
-          { nom: "Paprika fumé", qty: "1 pot", prix: "en stock", imbattable: false, hint: "" }
-        ]
-      }
-    },
-    "Métro": {
-      color: "#1565c0", bg: "#e3f2fd",
-      categories: {
-        "Poissons & fruits de mer": [
-          { nom: "Filet de saumon Atlantique", qty: "900 g (6 portions)", prix: "8,99 $/lb", imbattable: false, hint: "Solde -50%" }
-        ],
-        "Légumes": [
-          { nom: "Poireaux", qty: "2 branches", prix: "2,49 $", imbattable: false, hint: "" }
-        ]
-      }
-    },
-    "Super C": {
-      color: "#2e7d32", bg: "#e8f5e9",
-      categories: {
-        "Viandes & protéines": [
-          { nom: "Filets de porc", qty: "700 g (6 portions)", prix: "3,77 $/lb", imbattable: true, hint: "Mentionner à la caisse Maxi : Super C 3,77 $/lb" }
-        ],
-        "Légumes": [
-          { nom: "Poivrons rouges", qty: "3 poivrons", prix: "3,99 $/lb", imbattable: false, hint: "" },
-          { nom: "Courgettes", qty: "2 moyennes", prix: "1,99 $/lb", imbattable: false, hint: "" },
-          { nom: "Patates douces", qty: "1 kg", prix: "0,99 $/lb", imbattable: false, hint: "" }
-        ]
-      }
-    }
-  }
-};
-// ╚══════════════════════════════════════════════════════╝
-</script>
-
+ 
 <header>
   <h1>🥗 Family Planner</h1>
   <div class="subtitle" id="header-subtitle"></div>
   <div class="stats-bar" id="stats-bar"></div>
 </header>
-
+ 
+<div class="week-selector" id="week-selector"></div>
+ 
 <div class="tabs">
   <button class="tab-btn active" onclick="showTab('menus', this)">🍽️ Menus</button>
   <button class="tab-btn" onclick="showTab('epicerie', this)">🛒 Épicerie</button>
   <button class="tab-btn" onclick="showTab('resume', this)">📊 Résumé</button>
 </div>
-
+ 
 <main>
   <div id="tab-menus" class="tab-content active">
     <div class="section-title">Soupers de la semaine</div>
     <div class="menus-grid" id="menus-grid"></div>
   </div>
-
+ 
   <div id="tab-epicerie" class="tab-content">
     <div class="grocery-progress">
       <div class="progress-bar-wrap">
@@ -373,7 +301,7 @@ const DATA = {
     <div id="store-sections"></div>
     <button class="copy-btn" onclick="copyList()">📋 Copier la liste d'épicerie</button>
   </div>
-
+ 
   <div id="tab-resume" class="tab-content">
     <div class="section-title">Cette semaine en chiffres</div>
     <div class="summary-grid" id="summary-grid"></div>
@@ -381,24 +309,26 @@ const DATA = {
     <div class="stores-summary" id="stores-summary"></div>
   </div>
 </main>
-
+ 
 <script>
+let DATA = null;
+ 
 function showTab(name, btn) {
   document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
   document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
   document.getElementById('tab-' + name).classList.add('active');
   btn.classList.add('active');
 }
-
+ 
 function showStore(sid) {
   document.querySelectorAll('.store-section').forEach(el => el.classList.remove('active-store'));
   document.querySelectorAll('.store-tab').forEach(el => el.classList.remove('active-store'));
   document.getElementById('section-' + sid).classList.add('active-store');
   document.getElementById('stab-' + sid).classList.add('active-store');
 }
-
+ 
 let totalItems = 0;
-
+ 
 function toggleItem(el) {
   el.classList.toggle('checked');
   const checked = document.querySelectorAll('.grocery-item.checked').length;
@@ -406,20 +336,19 @@ function toggleItem(el) {
   document.getElementById('progress-fill').style.width = pct + '%';
   document.getElementById('progress-text').textContent = checked + ' / ' + totalItems + ' items';
 }
-
+ 
 function copyList() {
-  let lines = ['🛒 LISTE D\'ÉPICERIE — Semaine du ' + DATA.semaine, ''];
-  for (const [store, data] of Object.entries(DATA.epicerie)) {
+  if (!DATA) return;
+  let lines = ['🛒 LISTE D\'ÉPICERIE — Semaine du ' + DATA.semaine_label, ''];
+ 
+  const epicerie = buildGroceryData();
+  for (const [store, items] of Object.entries(epicerie)) {
     lines.push('── ' + store.toUpperCase() + ' ──');
-    for (const [cat, items] of Object.entries(data.categories)) {
-      lines.push('  ' + cat + ':');
-      items.forEach(item => {
-        let line = '  • ' + item.nom + ' — ' + item.qty + ' (' + item.prix + ')';
-        if (item.imbattable) line += ' ⭐ Imbattable Maxi';
-        if (item.hint) line += ' [' + item.hint + ']';
-        lines.push(line);
-      });
-    }
+    items.forEach(item => {
+      let line = '  • ' + item.nom + ' — ' + item.quantite + ' (' + item.prix + ')';
+      if (item.imbattable) line += ' ⭐ Spécial';
+      lines.push(line);
+    });
     lines.push('');
   }
   navigator.clipboard.writeText(lines.join('\n')).then(() => {
@@ -428,66 +357,129 @@ function copyList() {
     setTimeout(() => { btn.innerHTML = '📋 Copier la liste d\'épicerie'; }, 2000);
   });
 }
-
-// Render header
-const imbattableCount = DATA.menus.reduce((n, m) => n + (m.ingredients || []).filter(i => i.imbattable).length, 0);
-document.getElementById('header-subtitle').textContent = 'Semaine du ' + DATA.semaine;
-document.getElementById('stats-bar').innerHTML = `
-  <div class="stat">🍽️ ${DATA.menus.length} soupers</div>
-  <div class="stat">👨‍👩‍👧 ${DATA.portions} portions</div>
-  <div class="stat">⭐ ${imbattableCount} Imbattables Maxi</div>
-  <div class="stat">💰 ~${DATA.coutEstime}</div>
-`;
-
-// Render menus
-const grid = document.getElementById('menus-grid');
-DATA.menus.forEach(menu => {
-  const titleHtml = menu.url
-    ? `<a href="${menu.url}" target="_blank" rel="noopener">${menu.titre}</a>`
-    : menu.titre;
-  const ingHtml = (menu.ingredients || []).map(i => `
-    <div class="store-item">
-      <span class="store-badge ${i.store}">${i.storeLabel}</span>
-      <span>${i.produit}</span>
-      <strong>${i.prix}</strong>
-      ${i.note ? `<em style="color:var(--orange);font-size:0.75rem">${i.note}</em>` : ''}
-      ${i.imbattable ? `<span class="imbattable-tag">⭐ Imbattable</span>` : ''}
-    </div>`).join('');
-  grid.innerHTML += `
-    <div class="menu-card">
-      <div class="menu-card-header">
-        <div class="protein-emoji">${menu.emoji}</div>
-        <div><div class="day-chip">${menu.jour}</div></div>
-      </div>
-      <div class="menu-card-body">
-        <div class="recipe-title">${titleHtml}</div>
-        <div class="recipe-meta">
-          <span class="meta-tag time">⏱ ${menu.temps} min</span>
-          <span class="meta-tag portions">🍽 ${DATA.portions} portions</span>
-          <span class="meta-tag">${menu.site}</span>
+ 
+function buildGroceryData() {
+  const epicerie = {};
+  if (!DATA || !DATA.menus) return epicerie;
+ 
+  DATA.menus.forEach(menu => {
+    (menu.ingredients || []).forEach(ing => {
+      const store = ing.magasin;
+      if (!epicerie[store]) epicerie[store] = [];
+ 
+      const exists = epicerie[store].find(i => i.nom === ing.nom);
+      if (!exists) {
+        epicerie[store].push({
+          nom: ing.nom,
+          quantite: ing.quantite,
+          prix: ing.prix,
+          imbattable: ing.en_special || false
+        });
+      }
+    });
+  });
+  return epicerie;
+}
+ 
+async function loadWeek(weekId) {
+  try {
+    const response = await fetch(`data/${weekId}.json`);
+    if (!response.ok) throw new Error('Failed to load week');
+    DATA = await response.json();
+    render();
+  } catch (err) {
+    document.getElementById('menus-grid').innerHTML = '<div class="loading">❌ Erreur au chargement des données</div>';
+    console.error(err);
+  }
+}
+ 
+async function loadWeeks() {
+  try {
+    const response = await fetch('data/index.json');
+    const index = await response.json();
+    const selector = document.getElementById('week-selector');
+ 
+    index.semaines.forEach((week, i) => {
+      const btn = document.createElement('button');
+      btn.className = 'week-btn' + (i === index.semaines.length - 1 ? ' active' : '');
+      btn.textContent = week.label;
+      btn.onclick = () => {
+        document.querySelectorAll('.week-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        loadWeek(week.id);
+      };
+      selector.appendChild(btn);
+    });
+ 
+    // Load latest week
+    if (index.semaines.length > 0) {
+      const latest = index.semaines[index.semaines.length - 1];
+      loadWeek(latest.id);
+    }
+  } catch (err) {
+    console.error('Failed to load index:', err);
+  }
+}
+ 
+function render() {
+  if (!DATA) return;
+ 
+  totalItems = 0;
+ 
+  // Render header
+  document.getElementById('header-subtitle').textContent = 'Semaine du ' + DATA.semaine_label;
+  document.getElementById('stats-bar').innerHTML = `
+    <div class="stat">🍽️ ${DATA.menus.length} soupers</div>
+    <div class="stat">👨‍👩‍👧 ${DATA.n_portions} portions</div>
+    <div class="stat">💰 ~${DATA.cout_estime}</div>
+  `;
+ 
+  // Render menus
+  const grid = document.getElementById('menus-grid');
+  grid.innerHTML = '';
+  DATA.menus.forEach(menu => {
+    const titleHtml = menu.url
+      ? `<a href="${menu.url}" target="_blank" rel="noopener">${menu.titre}</a>`
+      : menu.titre;
+    const ingHtml = (menu.ingredients || []).map(i => `
+      <div class="store-item">
+        <span class="store-badge ${i.magasin}">${i.magasin}</span>
+        <span>${i.nom}</span>
+        <strong>${i.prix}</strong>
+        ${i.en_special ? `<span class="imbattable-tag">⭐ Spécial</span>` : ''}
+      </div>`).join('');
+    grid.innerHTML += `
+      <div class="menu-card">
+        <div class="menu-card-header">
+          <div class="protein-emoji">${menu.emoji}</div>
+          <div><div class="day-chip">${menu.jour}</div></div>
         </div>
-        <div class="store-row">${ingHtml}</div>
-      </div>
-    </div>`;
-});
-
-// Render épicerie
-const storeTabs = document.getElementById('store-tabs');
-const storeSections = document.getElementById('store-sections');
-let firstStore = true;
-const storeCountMap = {};
-
-for (const [storeName, storeData] of Object.entries(DATA.epicerie)) {
-  const sid = storeName.replace(/\s+/g,'_');
-  let n = 0;
-  for (const items of Object.values(storeData.categories)) n += items.length;
-  storeCountMap[storeName] = n;
-
-  storeTabs.innerHTML += `<button class="store-tab ${firstStore ? 'active-store' : ''}" id="stab-${sid}" onclick="showStore('${sid}')">${storeName}</button>`;
-
-  let catHtml = '';
-  for (const [cat, items] of Object.entries(storeData.categories)) {
-    catHtml += `<div class="category-label">${cat}</div><div class="grocery-list">`;
+        <div class="menu-card-body">
+          <div class="recipe-title">${titleHtml}</div>
+          <div class="recipe-meta">
+            <span class="meta-tag time">⏱ ${menu.temps} min</span>
+            <span class="meta-tag portions">🍽 ${DATA.n_portions} portions</span>
+            <span class="meta-tag">${menu.site}</span>
+          </div>
+          <div class="store-row">${ingHtml}</div>
+        </div>
+      </div>`;
+  });
+ 
+  // Render épicerie
+  const epicerie = buildGroceryData();
+  const storeTabs = document.getElementById('store-tabs');
+  const storeSections = document.getElementById('store-sections');
+  storeTabs.innerHTML = '';
+  storeSections.innerHTML = '';
+ 
+  let firstStore = true;
+  for (const [storeName, items] of Object.entries(epicerie)) {
+    const sid = storeName.replace(/\s+/g,'_');
+ 
+    storeTabs.innerHTML += `<button class="store-tab ${firstStore ? 'active-store' : ''}" id="stab-${sid}" onclick="showStore('${sid}')">${storeName}</button>`;
+ 
+    let catHtml = '<div class="category-label">Tous les items</div><div class="grocery-list">';
     items.forEach(item => {
       totalItems++;
       catHtml += `
@@ -499,45 +491,54 @@ for (const [storeName, storeData] of Object.entries(DATA.epicerie)) {
           </div>
           <div class="item-info">
             <div class="item-name">${item.nom}</div>
-            <div class="item-qty">${item.qty}${item.hint ? ' · ' + item.hint : ''}</div>
+            <div class="item-qty">${item.quantite}</div>
           </div>
           <div class="item-right">
             <div class="item-price">${item.prix}</div>
-            ${item.imbattable ? `<div class="item-imbattable-hint">⭐ Imbattable</div>` : ''}
+            ${item.imbattable ? `<div class="item-imbattable-hint">⭐ Spécial</div>` : ''}
           </div>
         </div>`;
     });
     catHtml += '</div>';
+    storeSections.innerHTML += `<div class="store-section ${firstStore ? 'active-store' : ''}" id="section-${sid}">${catHtml}</div>`;
+    firstStore = false;
   }
-  storeSections.innerHTML += `<div class="store-section ${firstStore ? 'active-store' : ''}" id="section-${sid}">${catHtml}</div>`;
-  firstStore = false;
+  document.getElementById('progress-text').textContent = '0 / ' + totalItems + ' items';
+ 
+  // Render résumé
+  const storeCount = Object.keys(epicerie).length;
+  document.getElementById('summary-grid').innerHTML = `
+    <div class="summary-card"><div class="big-num">${DATA.menus.length}</div><div class="big-label">Soupers planifiés</div></div>
+    <div class="summary-card"><div class="big-num">${DATA.n_portions}</div><div class="big-label">Portions par repas</div></div>
+    <div class="summary-card"><div class="big-num">${totalItems}</div><div class="big-label">Items à acheter</div></div>
+    <div class="summary-card"><div class="big-num">${DATA.cout_estime}</div><div class="big-label">Coût estimé total</div></div>
+  `;
+ 
+  const storesSum = document.getElementById('stores-summary');
+  storesSum.innerHTML = '';
+ 
+  const storeColors = {
+    'MAXI': { bg: '#fce4ec', color: '#c62828' },
+    'METRO': { bg: '#e3f2fd', color: '#1565c0' },
+    'SUPERC': { bg: '#e8f5e9', color: '#2e7d32' },
+    'IGA': { bg: '#fff3e0', color: '#e65100' }
+  };
+ 
+  for (const [storeName, items] of Object.entries(epicerie)) {
+    const colors = storeColors[storeName] || { bg: '#f5f5f5', color: '#757575' };
+    storesSum.innerHTML += `
+      <div class="store-summary-row">
+        <div class="store-logo-initial" style="background:${colors.bg};color:${colors.color}">${storeName[0]}</div>
+        <div class="store-summary-info">
+          <div class="store-summary-name">${storeName}</div>
+          <div class="store-summary-items">${items.length} item${items.length > 1 ? 's' : ''}</div>
+        </div>
+      </div>`;
+  }
 }
-document.getElementById('progress-text').textContent = '0 / ' + totalItems + ' items';
-
-// Render résumé
-const totalCount = Object.values(storeCountMap).reduce((a, b) => a + b, 0);
-document.getElementById('summary-grid').innerHTML = `
-  <div class="summary-card"><div class="big-num">${DATA.menus.length}</div><div class="big-label">Soupers planifiés</div></div>
-  <div class="summary-card"><div class="big-num">${DATA.portions}</div><div class="big-label">Portions par repas</div></div>
-  <div class="summary-card gold"><div class="big-num">${imbattableCount}</div><div class="big-label">Imbattables Maxi ⭐</div></div>
-  <div class="summary-card"><div class="big-num">${totalCount}</div><div class="big-label">Items à acheter</div></div>
-  <div class="summary-card"><div class="big-num">${DATA.coutEstime}</div><div class="big-label">Coût estimé total</div></div>
-`;
-
-const storesSum = document.getElementById('stores-summary');
-for (const [storeName, storeData] of Object.entries(DATA.epicerie)) {
-  const itemCount = storeCountMap[storeName];
-  const allItems = Object.values(storeData.categories).flat();
-  const imbCount = allItems.filter(i => i.imbattable).length;
-  storesSum.innerHTML += `
-    <div class="store-summary-row">
-      <div class="store-logo-initial" style="background:${storeData.bg};color:${storeData.color}">${storeName[0]}</div>
-      <div class="store-summary-info">
-        <div class="store-summary-name">${storeName}</div>
-        <div class="store-summary-items">${itemCount} item${itemCount > 1 ? 's' : ''}${imbCount ? ' · ⭐ ' + imbCount + ' Imbattable' + (imbCount > 1 ? 's' : '') : ''}</div>
-      </div>
-    </div>`;
-}
+ 
+// Load weeks on page load
+loadWeeks();
 </script>
 </body>
 </html>
