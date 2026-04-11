@@ -1,0 +1,310 @@
+================================================================================
+  FAMILYMEAL — Semaine du 9 avril 2026 (2026-W15)
+  Générée automatiquement le 2026-04-11
+  Mode : Automatique (N_REPAS=4, N_PORTIONS=4)
+================================================================================
+
+MÉTA-DONNÉES
+────────────
+Semaine        : 2026-04-09 au 2026-04-15
+Menus générés  : 4 / 4
+Portions/repas : 4 portions
+Contraintes    : Sans gluten • Sans lactose • Sans sucre raffiné
+Coût estimé    : 35–50 $ (MAXI ~30-42 $ + MÉTRO ~5-8 $ si sirop d'érable)
+
+Circulaires consultées :
+  ✓ Maxi     (9–15 avril 2026)
+  ✓ Métro    (9–15 avril 2026)
+  ✓ Super C  (9–15 avril 2026, pour Imbattables Maxi uniquement)
+  ✓ IGA      (9–15 avril 2026, pour Imbattables Maxi uniquement)
+
+================================================================================
+  SECTION 1 — CIRCULAIRES DE LA SEMAINE
+================================================================================
+
+── MAXI (achat) ─────────────────────────────────────────────────────────────
+  Fraises (1 lb)                         2,00 $         [Fruit]          ← IMBATTABLE ✅
+  Longe de porc fraîche                  2,00 $/lb      [Porc]           ← IMBATTABLE ✅ UTILISÉ
+  Bœuf haché                             4,95 $/lb      [Bœuf]
+  Mangue ou avocat                       1,00 $/unité   [Fruit]          ← IMBATTABLE ✅
+  Œufs (douzaine)                        3,00 $         [Œufs]
+  Poireaux (3)                           3,00 $         [Légume]
+  Crevettes / saumon fumé               3,00 $         [Fruits de mer]  ← UTILISÉ
+  Mélange de salades                     3,00 $         [Légume]
+  Tomates cerises                        4,00 $         [Légume]
+  Kale / épinards                        2,00 $         [Légume]         ← UTILISÉ
+  Poulet portugais                       4,00 $/lb      [Volaille]
+  Citrons verts                          0,50 $/unité   [Fruit]          ← UTILISÉ
+  Pâtes Primo                            1,40 $         [Épicerie sèche]
+
+── MÉTRO (référence + sirop d'érable) ───────────────────────────────────────
+  Pommes de terre Russet (3 lb)          0,99 $         [Légume]
+  Brocoli                                1,67 $         [Légume]
+  Côtelettes de porc                     2,88 $/lb      [Porc]
+  Sirop d'érable                         5,97 $         [Épicerie sèche] ← ACHETER si épuisé
+  Avocat                                 0,99 $         [Fruit]
+  Raisin vert                            2,44 $/lb      [Fruit]
+  Mangue                                 1,67 $         [Fruit]
+
+── SUPER C (référence Imbattables Maxi seulement — pas d'achat) ─────────────
+  Poitrines de poulet désossées          3,44 $/lb      [Volaille]
+  Poivrons                               2,48 $/lb      [Légume]
+  Chou-fleur                             2,49 $         [Légume]
+  Oranges (3 lb)                         2,43 $         [Fruit]
+  Pommes (3 lb)                          2,43 $         [Fruit]
+  Cantaloup                              1,93 $         [Fruit]
+
+── IGA (référence Imbattables Maxi seulement — pas d'achat) ─────────────────
+  Côtelettes de longe de porc            2,49 $/lb      [Porc]
+  Porc haché                             2,49 $/lb      [Porc]
+  Bœuf à braiser                         6,88 $/lb      [Bœuf]
+  Filets de truite                       14,99 $/lb     [Poisson]
+  Fraises                                3,99 $         [Fruit]
+  Laitue Boston                          2,00 $         [Légume]
+  Avocat (sac 2 kg)                      6,00 $         [Fruit]
+
+================================================================================
+  SECTION 2 — IMBATTABLES MAXI (semaine du 9 avril 2026)
+================================================================================
+
+✅ Longe de porc fraîche
+   Prix Maxi spécial  : 2,00 $/lb
+   Prix Métro spécial : 2,88 $/lb (côtelettes)
+   Prix IGA spécial   : 2,49 $/lb (côtelettes)
+   Économie vs Métro  : 0,88 $/lb | Économie vs IGA : 0,49 $/lb
+   → Mentionner à la caisse Maxi : Métro côtelettes 2,88 $/lb | IGA côtelettes 2,49 $/lb
+
+✅ Fraises (1 lb)
+   Prix Maxi spécial  : 2,00 $
+   Prix IGA spécial   : 3,99 $
+   Économie           : 1,99 $ par livre
+   → Mentionner à la caisse Maxi : IGA fraises 3,99 $
+
+✅ Mangue
+   Prix Maxi spécial  : 1,00 $/unité
+   Prix Métro spécial : 1,67 $/unité
+   Économie           : 0,67 $ par mangue
+   → Mentionner à la caisse Maxi : Métro mangue 1,67 $
+
+~ Avocat
+   Prix Maxi spécial  : 1,00 $/unité
+   Prix Métro spécial : 0,99 $/unité
+   → Métro légèrement moins cher — Maxi compétitif mais pas imbattable cette semaine
+
+================================================================================
+  SECTION 3 — MENUS DE LA SEMAINE
+================================================================================
+
+────────────────────────────────────────────────────────────────────────────────
+  LUNDI 🍗 — Pilaf one pot de poulet aux oignons
+  Site : Trois fois par jour
+  URL  : https://www.troisfoisparjour.com/fr/recettes/plats-principaux/poulet-volaille/pilaf-one-pot-de-poulet-aux-oignons/
+  Temps: 35 min (10 min prép + 25 min cuisson) | Portions: 4
+  Sans gluten ✅ | Sans lactose ✅ | Sans sucre raffiné ✅
+────────────────────────────────────────────────────────────────────────────────
+
+INGRÉDIENTS (4 portions) :
+  • 6 à 8 hauts de cuisse de poulet désossés, sans peau (~600 g / 1,3 lb)    MAXI prix courant
+  • 2 oignons jaunes, tranchés finement                                        MAXI prix courant
+  • 2 échalotes françaises, tranchées finement                                 MAXI prix courant
+  • 3 gousses d'ail, hachées                                                   MAXI prix courant
+  • 1½ tasse de riz jasmin (300 g)                                             MAXI prix courant
+  • 3 tasses de bouillon de poulet sans gluten (750 ml)                        MAXI prix courant
+  • ½ tasse de persil frais haché                                              MAXI prix courant
+  • 1 c. à soupe d'huile d'olive                                               en stock
+  • Sel et poivre au goût                                                       en stock
+
+PRÉPARATION :
+  1. Saler et poivrer généreusement les hauts de cuisse de poulet.
+  2. Dans une grande poêle à couvercle, chauffer l'huile d'olive à feu vif.
+     Dorer le poulet des deux côtés (3-4 min/côté).
+  3. Ajouter les oignons, échalotes et ail. Faire cuire jusqu'à ce qu'ils ramollissent.
+  4. Incorporer le riz et l'enrober. Verser le bouillon, porter à ébullition.
+  5. Réduire le feu, couvrir et mijoter 15-20 min.
+  6. Ajouter le persil, rectifier l'assaisonnement et servir.
+
+ASTUCE MEAL PREP : Trancher les oignons et échalotes la veille. Tout cuit dans
+  une seule poêle en 35 min. Restes se conservent 3 jours au frigo.
+
+NOTES CAROLINE : Utiliser bouillon certifié sans gluten (Pacific Foods ou Imagine).
+  Naturellement sans lactose et sans sucre raffiné.
+
+────────────────────────────────────────────────────────────────────────────────
+  MARDI 🦐 — Plaque de crevettes et de kale, sauce soya-orange-lime
+  Site : Trois fois par jour
+  URL  : https://www.troisfoisparjour.com/fr/recettes/plats-principaux/fruits-de-mer/plaque-de-crevettes-et-de-kale-a-la-sauce-soya-a-lorange-a-la-lime/
+  Temps: 25 min (10 min prép + 15 min four) | Portions: 4
+  Sans gluten ✅* | Sans lactose ✅ | Sans sucre raffiné ✅*
+  * avec substitutions Caroline (voir notes)
+────────────────────────────────────────────────────────────────────────────────
+
+INGRÉDIENTS (4 portions) :
+  • 400–500 g de crevettes crues décortiquées (1–2 paquets)   MAXI 3,00 $/paquet ← SOLDE
+  • 8 tasses de kale, tiges retirées (~250 g)                 MAXI 2,00 $        ← SOLDE
+  • ¼ tasse de tamari sans gluten (ex: San-J)                 MAXI prix courant
+  • ¼ tasse de jus d'orange frais (1 orange)                  MAXI prix courant
+  • 1 c. à soupe de miel pur                                  en stock
+  • 1 c. à thé de sriracha sans gluten (optionnel)            en stock
+  • 2 citrons verts, jus (env. 60 ml)                         MAXI 0,50 $/unité  ← SOLDE
+  • 1 c. à soupe de gingembre frais haché                     MAXI prix courant
+  • 2 gousses d'ail, hachées finement                         MAXI prix courant
+  • 1 c. à soupe d'huile végétale                             en stock
+  • ¼ tasse d'arachides non salées, hachées (optionnel)       MAXI prix courant
+  • 2 tasses de riz blanc ou 200 g vermicelles de riz         MAXI prix courant
+
+PRÉPARATION :
+  1. Préchauffer le four à 350°F (175°C).
+  2. Mélanger tamari, jus d'orange, miel, sriracha, jus de lime,
+     gingembre et ail. Mettre de côté.
+  3. Retirer les tiges du kale et déchirer grossièrement.
+  4. Mélanger le kale avec la moitié de la sauce. Étaler sur une plaque.
+  5. Enrober les crevettes du reste de la sauce. Déposer sur le kale.
+  6. Enfourner 15 minutes.
+  7. Garnir d'arachides. Servir sur riz ou vermicelles de riz.
+
+ASTUCE MEAL PREP : Sauce préparable 2 jours à l'avance. Kale à déchirer la veille.
+  Crevettes à décongeler la nuit précédente au frigo.
+
+NOTES CAROLINE : ⚠️ UTILISER TAMARI SANS GLUTEN (San-J) — JAMAIS sauce soya ordinaire.
+  Substituer la marmelade (recette originale) par jus d'orange + miel pour éviter
+  le sucre raffiné. Vérifier que la sriracha est sans gluten. Kale ET crevettes
+  EN SOLDE chez Maxi — recette très économique cette semaine!
+
+────────────────────────────────────────────────────────────────────────────────
+  JEUDI 🥩 — Côtelettes de porc glacées à l'érable
+  Site : Ricardo Cuisine
+  URL  : https://www.ricardocuisine.com/en/recipes/8057-maple-glazed-pork-chops
+  Temps: 25 min (10 min prép + 15 min cuisson) | Portions: 4
+  Sans gluten ✅* | Sans lactose ✅ | Sans sucre raffiné ✅
+  * avec tamari sans gluten au lieu de sauce soya
+────────────────────────────────────────────────────────────────────────────────
+
+INGRÉDIENTS (4 portions) :
+  • 4 côtelettes de longe de porc avec os (~750 g / 1,7 lb)   MAXI 2,00 $/lb ← IMBATTABLE ✅
+  • ½ tasse de sirop d'érable pur (125 ml)                    MAXI ou en stock
+  • ¼ tasse de tamari sans gluten (60 ml)                     MAXI prix courant
+  • 2 c. à soupe d'huile végétale                             en stock
+  • Sel et poivre au goût                                     en stock
+
+PRÉPARATION :
+  1. Saler et poivrer les côtelettes des deux côtés.
+  2. Chauffer l'huile à feu moyen-vif. Cuire les côtelettes 5 min/côté
+     (température interne 63°C).
+  3. Retirer le porc, couvrir de papier d'aluminium pour garder au chaud.
+  4. Dans la même poêle, verser sirop d'érable + tamari. Porter à ébullition.
+  5. Réduire 4 minutes jusqu'à consistance sirupeuse.
+  6. Enrober les côtelettes du glaçage. Servir avec brocoli ou légumes vapeur.
+
+ASTUCE MEAL PREP : La sauce tamari-érable peut être préparée à l'avance.
+  Servir avec brocoli de Métro (1,67 $) pour accompagnement ultra économique.
+
+NOTES CAROLINE : ⚠️ IMBATTABLE MAXI! Porc 2,00 $/lb vs Métro 2,88 $/lb et
+  IGA 2,49 $/lb. Utiliser tamari CERTIFIÉ sans gluten. Sirop d'érable = sucre
+  naturel non raffiné ✅. Naturellement sans lactose.
+
+────────────────────────────────────────────────────────────────────────────────
+  VENDREDI 🍗 — Poulet à l'érable et à la moutarde
+  Site : Geneviève O'Gleman
+  URL  : https://genevieveogleman.ca/mes-recettes/poulet-a-lerable-et-a-la-moutarde/
+  Temps: 25 min (10 min prép + 12-15 min cuisson) | Portions: 4
+  Sans gluten ✅* | Sans lactose ✅ | Sans sucre raffiné ✅
+  * vérifier les ingrédients (voir notes)
+────────────────────────────────────────────────────────────────────────────────
+
+INGRÉDIENTS (4 portions) :
+  • 6 hauts de cuisse de poulet désossés, sans peau (~600 g / 1,3 lb)  MAXI prix courant
+  • 60 ml de sirop d'érable pur (4 c. à soupe)                         en stock
+  • 30 ml de moutarde de Dijon, sans gluten (2 c. à soupe)             en stock
+  • 15 ml d'huile végétale locale (1 c. à soupe)                       en stock
+  • 15 ml d'herbes salées du Bas-du-Fleuve (1 c. à soupe)              MAXI prix courant
+  • Sel et poivre au goût                                               en stock
+
+PRÉPARATION :
+  1. Mélanger sirop d'érable, moutarde, huile et herbes salées dans un bol.
+  2. Enrober les hauts de cuisse de la marinade.
+  3. Chauffer une poêle anti-adhésive à feu moyen-vif (sans gras supplémentaire).
+  4. Cuire 5 min sans bouger pour dorer le premier côté.
+  5. Retourner et badigeonner du reste de la marinade. Cuire 5-7 min à feu moyen.
+  6. Servir avec salade verte ou légumes vapeur.
+
+ASTUCE MEAL PREP : Mariner le poulet la veille pour maximiser les saveurs.
+  Le soir J, seulement 10-12 min de cuisson. Excellent en wrap le lendemain midi.
+
+NOTES CAROLINE : Naturellement sans lactose et sans sucre raffiné (sirop d'érable ✅).
+  ⚠️ Vérifier les herbes salées du Bas-du-Fleuve (certifiées sans gluten?).
+  Moutarde Maille est généralement sans gluten — vérifier l'étiquette.
+
+================================================================================
+  SECTION 4 — LISTE D'ÉPICERIE CONSOLIDÉE
+================================================================================
+
+── À acheter chez MAXI ──────────────────────────────────────────────────────
+VIANDES & PROTÉINES
+  [ ] Hauts de cuisse de poulet désossés, sans peau     1,2 kg (~2,6 lb)    ~5,99 $/lb
+  [ ] Crevettes crues décortiquées (grosses)            1–2 paquets (400–500 g)  3,00 $ ← SOLDE
+  [ ] Côtelettes de longe de porc avec os               4 pièces (~750 g / 1,7 lb)  2,00 $/lb ← IMBATTABLE ✅
+      → Mentionner à la caisse: Métro côtelettes 2,88 $/lb | IGA côtelettes 2,49 $/lb
+
+LÉGUMES
+  [ ] Kale (1 gros bouquet)                             8 tasses (~250 g)    2,00 $ ← SOLDE
+  [ ] Oignons jaunes                                    2 unités             prix courant
+  [ ] Échalotes françaises                              2 unités             prix courant
+  [ ] Ail (tête)                                        1 tête               prix courant
+  [ ] Gingembre frais                                   petit morceau (~30 g) prix courant
+  [ ] Persil frais                                      1 botte              prix courant
+
+FRUITS
+  [ ] Citrons verts                                     2 unités             0,50 $/unité ← SOLDE
+  [ ] Orange (pour jus)                                 1 unité              prix courant
+
+ÉPICERIE SÈCHE & CONSERVES
+  [ ] Riz jasmin                                        1 sac 2 lb           prix courant
+  [ ] Bouillon de poulet sans gluten (Pacific/Imagine)  1 carton 900 ml      prix courant
+  [ ] Tamari sans gluten (San-J) — si épuisé            1 bouteille          prix courant
+  [ ] Herbes salées du Bas-du-Fleuve — si épuisé        1 pot                prix courant
+
+── À acheter chez MÉTRO (si sirop d'érable épuisé) ──────────────────────────
+ÉPICERIE SÈCHE
+  [ ] Sirop d'érable pur                                1 bouteille (540 ml) 5,97 $ ← SOLDE
+
+── EN STOCK (vérifier avant de partir) ──────────────────────────────────────
+  ✓ Huile d'olive / huile végétale
+  ✓ Moutarde de Dijon (sans gluten)
+  ✓ Miel pur
+  ✓ Sriracha (sans gluten)
+  ✓ Sel, poivre
+  ✓ Papier d'aluminium / papier parchemin (pour la plaque)
+
+SOUS-TOTAUX ESTIMÉS :
+  MAXI (protéines + légumes + fruits + épicerie sèche) : ~30–42 $
+  MÉTRO (sirop d'érable si épuisé)                     :  ~6 $
+  TOTAL ESTIMÉ                                         : 35–50 $
+  Coût par portion (16 portions totales)               :  2,19–3,13 $
+
+================================================================================
+  SECTION 5 — NOTES GÉNÉRALES CAROLINE
+================================================================================
+
+RÈGLE D'OR SANS GLUTEN :
+  • Toujours utiliser tamari CERTIFIÉ sans gluten (San-J, Kikkoman sans gluten)
+  • Bouillon de poulet certifié sans gluten (Pacific Foods, Imagine)
+  • Moutarde Maille = généralement sans gluten (vérifier le lot)
+  • Herbes salées du Bas-du-Fleuve = vérifier l'étiquette
+
+RÈGLE D'OR SANS LACTOSE :
+  • Toutes les recettes de cette semaine sont naturellement sans lactose
+  • Aucun substitut beurre nécessaire cette semaine
+
+RÈGLE D'OR SANS SUCRE RAFFINÉ :
+  • Sirop d'érable = OK (sucre naturel non raffiné)
+  • Miel = OK (sucre naturel non raffiné)
+  • ⚠️ Plaque de crevettes : substituer la marmelade d'orange par jus d'orange + miel
+
+IMBATTABLES MAXI — RAPPEL CAISSE :
+  ✅ Porc longe : 2,00 $/lb → montrer flyer Métro (2,88 $) ou IGA (2,49 $)
+  ✅ Fraises   : 2,00 $/lb → montrer flyer IGA (3,99 $) si Maxi demande validation
+  ✅ Mangue    : 1,00 $    → montrer flyer Métro (1,67 $) si Maxi demande validation
+
+================================================================================
+  FIN DU RAPPORT — 2026-W15 — Généré le 2026-04-11
+================================================================================
